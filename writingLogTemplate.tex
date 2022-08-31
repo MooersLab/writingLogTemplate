@@ -1,0 +1,311 @@
+\documentclass[10pt,letterpaper]{article}
+% \usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[letterpaper, total={7in, 9in}]{geometry}
+\usepackage{datetime2}
+\usepackage{minted}
+\usepackage{ulem}
+\usepackage{spreadtab}
+
+
+% Code for plotting table 
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{colortbl}
+
+\pgfplotstableset{% global config, for example in the preamble
+  every head row/.style={before row=\toprule,after row=\midrule},
+  every last row/.style={after row=\bottomrule},
+  fixed,precision=2,
+}
+
+\makeindex
+
+% todolist env from https://tex.stackexchange.com/questions/247681/how-to-create-checkbox-todo-list
+% done with checkmark, wontfix with x, next with finger.
+% Use square brackets around the commands: e.g., [\next]
+\usepackage{enumitem,amssymb}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\usepackage{pifont}
+\newcommand{\nmark}{\ding{42}}% next
+\newcommand{\cmark}{\ding{51}}% checkmark
+\newcommand{\xmark}{\ding{55}}% x-mark
+\newcommand{\wmark}{\ding{116}}% wait mark, inverted triangle representing yield sign
+
+\newcommand{\done}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}%
+  \hspace{-2.5pt}}
+\newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
+\newcommand{\waiting}{\rlap{\raisebox{0.18ex}{\hspace{0.17ex}\scriptsize \wmark}}$\square$}
+% \newcommand{\next}{\nmark}%
+
+
+\title{Writing Log for hot paper}
+\author{Blaine Mooers}
+
+\begin{document}
+\maketitle
+
+\section{Why am I writing this paper?}
+
+What is the rationale for writing this paper?
+
+To help advance the field. To help win or renew a grant.
+
+
+\section{Who is the audience of the paper?}
+
+
+\section{Related Grant Application Specific Aims}
+
+\begin{itemize}
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\end{itemize}
+
+\section{Related projects}
+
+Take care not to re-start the second project a second time.
+
+  \begin{itemize}
+  \item change me
+  \item change me
+  \item change me
+  \item change me
+  \end{itemize}
+
+
+\section{Potential Journals, IF}
+
+\begin{itemize}
+\item Nature
+\item Science
+\item Cell
+\item Annals of Oncology, 51.7!
+\item Molecular Cell
+\item PNAS
+\item Nature Methods
+\item Structure
+\item J of Appl Crystallography
+\item J of Molecular Biology
+\item Acta Cryst. Section D
+\item Acta Cryst. Section A
+\item Structural Dynamics
+\item Protein Science
+\item Biophysical Journal
+\item Computing in Science and Engineering
+\item Bioinformatics
+\item NAR
+\item Journal of Applied Crystallography
+\item Computers in Engineering and Science
+\item Structural Biology
+\item Structure
+\item Acta Cryst Section D
+\item Computational and Structural Biotechnology Journal, 7.3
+\item Data in Brief
+\item SoftwareX    
+\item MethodsX
+\item Computational and Theoretical Chemistry, 1.9
+\item Computational Biology and Chemistry, 2.8    
+\item Journal of Molecular Graphics and Modelling, 2.5
+\item Computers and Geosciences, 3.4
+\item Journal of Computational Science, 4.0
+\item CAD Computer Aided Design, 3.0    
+\item Computers and Education, Open, no APC
+\item Graphics \& Visual Computing,
+\item Progress in Biophysics and Molecular Biology, 3.7    
+\item Computational Geometry: Theory and Applications
+\item Computer Aided Geometric Design, 1.3    
+\item Progress in Nuclear Magnetic Resonance Spectroscopy. 9.7
+\item The FEBS Journal, 5.5
+\item Biochemistry and Molecular Biology Education, 1.2
+\item Journal of Computational Chemistry, 3.4
+\item Biochemistry and Molecular Biology Education
+\item Computer Graphics Forum
+\item J. of Molecular Graphics and Modeling
+\item Crystals
+\item International Journal of Molecular Science, 6.3
+\item Structure Opinion in Structural Biology
+\item Structural Biology   
+\item RNA
+\item Protein Science
+\end{itemize}
+
+
+\section{Potential Titles}
+
+\begin{itemize}
+\item change me
+\item change me
+\item change me
+\item change me
+\end{itemize}
+
+\section{Potential Keywords}
+
+\begin{itemize}
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\end{itemize}
+
+
+\section{Potential Internal Reviewers}
+
+\begin{itemize}
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\end{itemize}
+
+
+\section{Potential External Reviewers}
+
+\begin{itemize}
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\end{itemize}
+
+
+\section{Potential Competitors}
+
+\begin{itemize}
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\end{itemize}
+
+
+
+\section{Potential Collaborators}
+
+\begin{itemize}
+\item change me
+\item change me
+\item change me
+\item change me
+\item change me
+\end{itemize}
+
+
+
+
+
+
+
+\section{Draft Introduction}
+
+
+
+\section{Draft Abstract}
+
+
+
+
+\section{Writing Log}
+
+\subsection{8 August 2022}
+
+
+
+\section{Next Action}
+
+
+
+\section{To Be Done}
+
+
+\begin{itemize}
+\item change me
+\item change me
+\item change me
+\end{itemize}
+
+
+
+\section{May Be Done Someday}
+
+
+\begin{itemize}
+\item change me
+\item change me
+\item change me
+\end{itemize}
+
+
+\section{Word Count}
+
+\begin{figure}[htp!]
+  \centering
+  \begin{tikzpicture}
+    \begin{axis}[
+      xlabel={Date},
+      ylabel={Word Count Cumulative},
+      % legend pos=south east,
+      % legend entries={},
+      ]
+      \addplot table [x=Day,y=Words] {wordcount.txt};
+    \end{axis}
+  \end{tikzpicture}
+\end{figure}
+
+\begin{table}[]
+  \centering
+  \pgfplotstabletypeset[
+  columns/Date/.style={column name=Date},
+  columns/Day/.style={column name=Day},
+  columns/Word/.style={column name=Words},
+  ]{wordcount.txt}
+  \caption{Date, day and wordcount.}
+  \label{tab:my_label}
+\end{table}
+0
+
+
+\section{Glossary of jargon}
+
+
+\section{Reminders and precautions}
+
+
+
+
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
