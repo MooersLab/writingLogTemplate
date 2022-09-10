@@ -7,8 +7,9 @@ See [related talk](https://github.com/MooersLab/BerlinEmacsAugust2022).
 
 ## Related projects of possible interest
 
+- [Writing log template in Org-mode](https://github.com/MooersLab/writingLogTemplateInOrg)
 - [LaTeX manuscript template](https://github.com/MooersLab/manuscriptInLaTeX/edit/main/README.md)
-- [Writing log template in LaTeX](https://github.com/MooersLab/writingLogTemplate)
+- [Org-mode manuscript template](https://github.com/MooersLab/manuscriptInOrg/edit/main/README.md)
 - [Slideshow template in LaTeX](https://github.com/MooersLab/slideshowTemplateLaTeX)
 - [Annotated bibliography Template in LaTeX](https://github.com/MooersLab/annotatedBibliography)
 - [Diary for 2022 in LaTeX](https://github.com/MooersLab/diary2022inLaTeX)
