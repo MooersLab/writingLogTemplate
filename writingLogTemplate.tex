@@ -11,7 +11,7 @@
 \usepackage{minted}
 \usepackage{ulem}
 \usepackage{spreadtab}
-
+\makeindex
 
 % Code for plotting table 
 \usepackage{pgfplots}
@@ -25,8 +25,6 @@
   every last row/.style={after row=\bottomrule},
   fixed,precision=2,
 }
-
-\makeindex
 
 % todolist env from https://tex.stackexchange.com/questions/247681/how-to-create-checkbox-todo-list
 % done with checkmark, wontfix with x, next with finger.
@@ -45,7 +43,7 @@
 \newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
 \newcommand{\waiting}{\rlap{\raisebox{0.18ex}{\hspace{0.17ex}\scriptsize \wmark}}$\square$}
 % \newcommand{\next}{\nmark}%
-
+\bibliographystyle{cell}
 
 \title{Writing Log for hot paper}
 \author{Blaine Mooers}
@@ -93,13 +91,13 @@ Take care not to re-start the second project a second time.
 \end{itemize}
 
 
-\section{Potential Journals, Impact Factor (IF}}
+\section{Potential Journals, Impact Factor (IF)}
 \index{potential journals}
 
 \subsection{Very High Impact Journals}
 
 \begin{itemize}
-  \item Annals of Oncology, 51.7!
+  \item Annals of Oncology
   \item Cell
   \item Molecular Cell
   \item Nature
@@ -109,16 +107,16 @@ Take care not to re-start the second project a second time.
   \item Nucleic Acids Research
   \item PNAS
   \item Science
-\begin{itemize}
+\end{itemize}
 
 
 \subsection{Respectable Science Journals}
 
 
 \begin{itemize}
-  \item Acta Cryst. Section A
-  \item Acta Cryst. Section B
-  \item Acta Cryst Section D
+  \item Acta Crystallographica Section A
+  \item Acta Crystallographica Section B
+  \item Acta Crystallographica Section D
   \item Biochemistry
   \item Bioinformatics
   \item Biophysical Journal
@@ -378,3 +376,8 @@ The word count tends to approach a plateau in the latter stages of writing.
 \printindex
 
 \end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
