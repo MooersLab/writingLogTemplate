@@ -1,9 +1,47 @@
-# A LaTeX template for thinking, planning, and monitoring progress on writing projects 
+# A writing log template in LaTeX 
 
-Used in parallel to a the main writing project document.
-Includes code to plot to wordcount by writing session.
 
-See [related talk](https://github.com/MooersLab/BerlinEmacsAugust2022).
+Use this writing log in parallel to the main writing project document to track your progress and record your plans.
+This template can be used in any text editor that supports LaTeX, including on-line server like Overleaf.
+
+## Features
+
+- 20 considerations for planning a manuscript.
+- A table of contents that is automatically generated and hyperlinked.
+- An automatically generated index that is hyperlinked.
+- Support for generating a references cited section form a Bibtex library.
+- A writing log section for recording notes by each day's accomplishments.
+- Plot of wordcount by writing session to track your progress.
+
+## Usage on Overleaf
+
+- Upload the files into your current writing project.
+- Open the writing log file to edit it and compile it on the fly.
+- Compile times are lightning fast.
+- You can confgure Overleaf to use its defualt, vim, or emacs key bindings.
+
+
+
+## Usage in Emacs
+
+Emacs has the latex-mode built into the main distribution.
+You can install the AUCTeX package on top of it.
+Compile times are several seconds on a 2018 MacBook Pro with 32 GB of RAM.
+
+
+
+- `git clone https://github.com/MooersLab/writingLogTemplateInOrg` into the folder containing your current writing project.
+- Start Emacs, perhaps using the [latex-emacs](https://github.com/MooersLab/latex-emacs) profile.
+- Load the writingLogTemplate.org file into Emacs via `C-x C-f`. 
+- Essential keybindings for editing this file in in org-mode:
+  + `C-g` to abort current command.
+  + `C-x C-c` to quit Emacs
+  + `C-x C-s` to save the current document.
+  + `C-x u` to undo the last change.
+  + `M-UP` or `M-DOWN` to shift lines up and down. UP and Down are the arrow keys.
+  + `C-c C-a` to export to pdflatex, bibtex, make index, and open the resulting PDF in default PDF viewer.
+
+For more keybindings, see the README.md file of the repository for the [latex-emacs](https://github.com/MooersLab/latex-emacs) profile.
 
 ## Related projects of possible interest
 
