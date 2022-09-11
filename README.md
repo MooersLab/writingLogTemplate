@@ -38,6 +38,7 @@ Compile times are several seconds on a 2018 MacBook Pro with 32 GB of RAM.
   + `C-x C-s` to save the current document.
   + `C-x u` to undo the last change.
   + `M-UP` or `M-DOWN` to shift lines up and down. UP and Down are the arrow keys.
+  + `C-c =` to create a navigable table of content at the top of the tex file.
   + `C-c C-a` to export to pdflatex, bibtex, make index, and open the resulting PDF in default PDF viewer.
 
 For more keybindings, see the README.md file of the repository for the [latex-emacs](https://github.com/MooersLab/latex-emacs) profile.
