@@ -1,8 +1,10 @@
-# A writing log template in LaTeX 
+# A writing log template in LaTeX for use on Overleaf
 
 
 Use this writing log in parallel to the main writing project document to track your progress and record your plans.
-This template can be used in any text editor that supports LaTeX, including on-line server like Overleaf.
+This template can be used in any text editor that supports LaTeX, including on-line servers like Overleaf.
+Other text editors include Visual Studio Code, Vim, NeoVim, TextMate, Sublime Text, and so on.
+For an informal review and install instructions for over 20 leading text editors, visit [here](https://mooerslab.github.io/pymolsnips/#editors).
 
 ## Features
 
@@ -21,14 +23,11 @@ This template can be used in any text editor that supports LaTeX, including on-l
 - You can confgure Overleaf to use its defualt, vim, or emacs key bindings.
 
 
-
 ## Usage in Emacs
 
 Emacs has the latex-mode built into the main distribution.
 You can install the AUCTeX package on top of it.
 Compile times are several seconds on a 2018 MacBook Pro with 32 GB of RAM.
-
-
 
 - `git clone https://github.com/MooersLab/writingLogTemplateInOrg` into the folder containing your current writing project.
 - Start Emacs, perhaps using the [latex-emacs](https://github.com/MooersLab/latex-emacs) profile.
