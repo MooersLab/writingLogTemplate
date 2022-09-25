@@ -49,7 +49,7 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 - [Writing log template in Org-mode](https://github.com/MooersLab/writingLogTemplateInOrg)
 - [LaTeX manuscript template](https://github.com/MooersLab/manuscriptInLaTeX/edit/main/README.md)
 - [Org-mode manuscript template](https://github.com/MooersLab/manuscriptInOrg/edit/main/README.md)
-- [Workbook for tracking time spent and word written by project]()
+- [Workbook for tracking time spent and word written by project](https://github.com/MooersLab/writingProgress2022)
 - [Slideshow template in LaTeX](https://github.com/MooersLab/slideshowTemplateLaTeX)
 - [Annotated bibliography Template in LaTeX](https://github.com/MooersLab/annotatedBibliography)
 - [Diary for 2022 in LaTeX](https://github.com/MooersLab/diary2022inLaTeX)
