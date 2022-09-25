@@ -20,25 +20,26 @@ For an informal review and install instructions for over 20 leading text editors
 - Upload the files into your current writing project.
 - Open the writing log file to edit it and compile it on the fly.
 - Compile times are lightning fast.
-- You can confgure Overleaf to use its defualt, vim, or emacs key bindings.
+- You can configure Overleaf to use its defualt, Vim, or Emacs key bindings.
 
 
 ## Usage in Emacs
 
-Emacs has the latex-mode built into the main distribution.
-You can install the AUCTeX package on top of it.
+Emacs has the `latex-mode` built into the main distribution.
+You can install the `AUCTeX` package on top of it.
 Compile times are several seconds on a 2018 MacBook Pro with 32 GB of RAM.
 
-- `git clone https://github.com/MooersLab/writingLogTemplateInOrg` into the folder containing your current writing project.
+- `git clone https://github.com/MooersLab/writingLogTemplate` into the folder containing your current writing project.
 - Start Emacs, perhaps using the [latex-emacs](https://github.com/MooersLab/latex-emacs) profile.
-- Load the writingLogTemplate.org file into Emacs via `C-x C-f`. 
-- Essential keybindings for editing this file in in org-mode:
+- Load the writingLogTemplate.tex file into Emacs via `C-x C-f`. 
+- Essential keybindings for editing this file include:
   + `C-g` to abort current command.
   + `C-x C-c` to quit Emacs
   + `C-x C-s` to save the current document.
+  + `C-x C-w` to write the current document to a new file name.
   + `C-x u` to undo the last change.
   + `M-UP` or `M-DOWN` to shift lines up and down. UP and Down are the arrow keys.
-  + `C-c =` to create a navigable table of content at the top of the tex file.
+  + `C-c =` to create a navigable table of contents at the top of the tex file.
   + `C-c C-a` to export to pdflatex, bibtex, make index, and open the resulting PDF in default PDF viewer.
 
 For more keybindings, see the README.md file of the repository for the [latex-emacs](https://github.com/MooersLab/latex-emacs) profile.
@@ -48,6 +49,7 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 - [Writing log template in Org-mode](https://github.com/MooersLab/writingLogTemplateInOrg)
 - [LaTeX manuscript template](https://github.com/MooersLab/manuscriptInLaTeX/edit/main/README.md)
 - [Org-mode manuscript template](https://github.com/MooersLab/manuscriptInOrg/edit/main/README.md)
+- [Workbook for tracking time spent and word written by project]()
 - [Slideshow template in LaTeX](https://github.com/MooersLab/slideshowTemplateLaTeX)
 - [Annotated bibliography Template in LaTeX](https://github.com/MooersLab/annotatedBibliography)
 - [Diary for 2022 in LaTeX](https://github.com/MooersLab/diary2022inLaTeX)
