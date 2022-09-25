@@ -59,3 +59,4 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 - [Quizzes about Emacs to improve recall of keybindings](https://github.com/MooersLab/qemacs)
 - [Slides from talk about GhostText, Data Science Workshop, July 2022](https://github.com/MooersLab/DSW22ghosttext)
 - [Video link to talk about GhostText, Data Science Workshop, July 2022](https://mediasite.ouhsc.edu/Mediasite/Channel/python/watch/4da0872f028c4255ae12935655e911321d)
+- [The writer's law](https://github.com/MooersLab/thewriterslaw)
