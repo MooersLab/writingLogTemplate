@@ -55,6 +55,7 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 - [Diary for 2022 in LaTeX](https://github.com/MooersLab/diary2022inLaTeX)
 - [Diary for 2023 in LaTeX](https://github.com/MooersLab/diary2023inLaTeX)
 - [latex-emacs profile](https://github.com/MooersLab/latex-emacs)
+- [default Emacs profile](https://github.com/MooersLab/configorg)
 - [snippets for latex-mode in Emacs](https://github.com/MooersLab/snippet-latex-mode)
 - [Quizzes about Emacs to improve recall of keybindings](https://github.com/MooersLab/qemacs)
 - [Slides from talk about GhostText, Data Science Workshop, July 2022](https://github.com/MooersLab/DSW22ghosttext)
