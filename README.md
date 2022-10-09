@@ -3,8 +3,8 @@
 
 Use this writing log in parallel to the main writing project document to track your progress and record your plans.
 This template can be used in any text editor that supports LaTeX, including on-line servers like Overleaf.
-Other text editors include Visual Studio Code, Vim, NeoVim, TextMate, Sublime Text, and so on.
-For an informal review and install instructions for over 20 leading text editors, visit [here](https://mooerslab.github.io/pymolsnips/#editors).
+Other compatiable text editors include Visual Studio Code, Vim, NeoVim, Eamcs, TextMate, Sublime Text, and so on.
+For an informal review and install instructions for over 18 leading text editors, visit [here](https://mooerslab.github.io/pymolsnips/#editors).
 
 ## Features
 
@@ -31,8 +31,8 @@ Compile times are several seconds on a 2018 MacBook Pro with 32 GB of RAM.
 
 - `git clone https://github.com/MooersLab/writingLogTemplate` into the folder containing your current writing project.
 - Start Emacs, perhaps using the [latex-emacs](https://github.com/MooersLab/latex-emacs) profile.
-- Load the writingLogTemplate.tex file into Emacs via `C-x C-f`. 
-- Essential keybindings for editing this file include:
+- Load the writingLogTemplate.tex file into Emacs via the pull-down menu or the keybinding `C-x C-f`. 
+- Essential keybindings for editing this file include (note that most of these operations are available via the pull-down menus):
   + `C-g` to abort current command.
   + `C-x C-c` to quit Emacs
   + `C-x C-s` to save the current document.
