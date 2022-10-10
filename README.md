@@ -3,8 +3,8 @@
 
 Use this writing log in parallel to the main writing project document to track your progress and record your plans.
 This template can be used in any text editor that supports LaTeX, including on-line servers like Overleaf.
-Other compatiable text editors include Visual Studio Code, Vim, NeoVim, Eamcs, TextMate, Sublime Text, and so on.
-For an informal review and install instructions for over 18 leading text editors, visit [here](https://mooerslab.github.io/pymolsnips/#editors).
+Other compatiable text editors include Visual Studio Code, Vim, NeoVim, Emacs, TextMate, Sublime Text, and so on.
+For an informal review and install instructions for 18 leading text editors, visit [here](https://mooerslab.github.io/pymolsnips/#editors).
 
 ## Features
 
