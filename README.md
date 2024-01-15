@@ -50,6 +50,7 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 ## Related projects of possible interest
 
 - [Writing log template in Org-mode](https://github.com/MooersLab/writingLogTemplateInOrg)
+- [Voice computing related repos](https://github.com/MooersLab#voice-computing)
 - [LaTeX manuscript template](https://github.com/MooersLab/manuscriptInLaTeX/edit/main/README.md)
 - [Org-mode manuscript template](https://github.com/MooersLab/manuscriptInOrg/edit/main/README.md)
 - [Workbook for 2022 for tracking time spent and words written by project](https://github.com/MooersLab/writingProgress2022)
