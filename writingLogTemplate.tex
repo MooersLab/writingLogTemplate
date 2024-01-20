@@ -312,18 +312,30 @@ If not, click on this direct link to the Google Sheet in the compiled PDF of thi
 If you maintain a knowledgebase like a Zettelka\"sten in org-roam or Obsidian or Roam or Notion, you might want to consider making additions a literature notes and permanent notes at the end of a work session.
 The name of the index for this project is \verb|XXXXXXXXX|.
 Enter \mintinline{emacs}{Control-c n f} to search for this project note.
-
 This knowledge base can be used to store information that you may want to use eventually in the paper.
-You could alternatively create a section at the bottom of the writing log for the purpose of storing this kind of information in a list.
-Another approach that I use sometimes is to include such information on lines that have been commented out in the text document near where I want to use that information.
-I do have to admit that this approach can become a little unwieldy it if the comments wind up spending many lines.
-These notes that you may add might be in the form of what are called permanent notes that they include new insights are plans for for the work.
-These thoughts are not directly linked or derived from any particular reference.
-Another kind of note is known as a citation or reference note and is directly derived from a specific reference.
+
+You could alternatively create a section at the bottom of this writing log for the purpose of storing this kind of information in a list.
+Often such listed are very useful for the planning and for the development of the manuscript.
+While such notes can be stored in an annotated bibliography (), I seem to be less likely to utilize this information while working on a manuscript because the annotated bibliographies in a different document.
+Because it is out of sight, it is also out of mind.
+
+The advantage of keeping these bits of knowledge inside of the writing log is that you can link entries made in the daily log section to these bits of knowledge by using the \label{} and \ref{} macros of LaTeX.
+You can also set up label and ref pairs between to-do items and the bits of knowledge
+Keeping these items together in one document will improve the odds that you act upon the collected information and it reduces the mental bandwidth that you have to commit to managing this writing log.
+
+Another approach that I use sometimes is to include such information on lines that have been commented out in the manuscriprt's tex document near where I want to use that information.
+I do have to admit that this approach can become a little unwieldy it if the comments wind up spanning many lines.
+The clutter can be eliminated by using a suction at the bottom of the writing log has discussed above
+
+
+
+These notes that you may add might be in the form of what are called \textbf{permanent notes} that include new insights or plans for for the work.
+These thoughts are not directly linked or derived from any particular literature reference.
+Another kind of note is known as a \textbf{citation note} or \textbf{literature note} and is directly derived from a specific reference.
 These kind of notes will contain the BibTeX citekey.
 
-If you are using the Pomodoro method, you would probably want to commit the last one or two poms to the updating of your knowledge base.
-If you have been lagging on doing such updates, you may want to commit four to six Palms to this kind of work.
+If you are using the Pomodoro method, you would probably want to commit the last one or two poms of a work session on a writing project to the updating of your knowledge base.
+If you have been lagging on doing such updates, you may want to commit four to six poms to this kind of work; you might have to do this across multiple days if you have fallen behind.
 
 
 \section{Timeline or Benchmarks}
@@ -335,9 +347,6 @@ They will be printed in bold.
 It helps to visualize the next steps that need to be taken to move the project forward.
 Sometimes you cannot you cannot put forward candidate dates that are close to realistic.
 Nonetheless, it is best to try to map out a timeline so that the project can continue to move forward.
-
-
-
 
 \begin{description}
 \item [Jan. 21] Move the manuscript into Ms Word.
@@ -404,6 +413,17 @@ The word count tends to approach a plateau in the latter stages of writing.
   \caption{Date, day and wordcount.}
   \label{tab:my_label}
 \end{table}
+
+\section{Gathered knowledge and thoughts}
+
+The description environment is a useful one for capturing such bits of information. This information may be in the form of single sentence or any sentences or even several paragraphs.
+You can use the text that in the square brackets for the purpose of serving as a title for the idea.
+
+
+\begin{description}
+  \item [first useful tibbit] pearl of wisdom or insight.
+  \item [second useful tibbit] pearl of wisdom or insight.
+\end{description}
 
 
 \section{Glossary of jargon}
