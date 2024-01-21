@@ -89,12 +89,20 @@ You can navigate to different sections of the document by clicking on the file o
 
 \paragraph*{Version 0.3} is a massive restructuring into four sections for improved clarity and simplicity.
 The comments in the sections below can be commented out with a good text editor or by inserting a percent sign at the start of each line.
+Some of the explanatory text some may have value in the future.
+You can always comment out the lines that contain the explanatory text by inserting a percent sign at the start of each line.
+In Overleaf, you would can select the block of text and then enter command-/ to comment out the block.
+
 
 
 \section{Project initiation}
 \subsection{Rationale for this article}
 \label{sub:why}
 
+What is the rationale for writing this paper?
+To help advance the field?
+To help win or renew a grant funding?
+To establish credibility in a new field for my lab?
 
 
 \subsection{Audience for the paper}
@@ -177,8 +185,12 @@ After we think this section is well-developed, we will transfer it to the main m
 
 \subsection{Prior discussion points}
 \label{subsec:priorDiscussion}
-Before making that transfer mentioned above, we will check the proposed discussion points against those we have published to avoid repeating ourselves and to remind ourselves to review our new results against our prior discussion points.
+The discussion section should contain new points of discussion.
+If you are writing a series of papers about a topic, it is all too easy to recycle old discussion points.
+Before making the transfer mentioned above, we will check the proposed discussion points against those we have published to avoid repeating ourselves and remind ourselves to review our new results against our prior discussion points.
+You can check this list against the discussion section of your current manuscript to ensure that you are raising new points or updating prior points while appropriately citing yourself. 
 The new results may require that we update our published discussion points.
+
 
 \begin{enumerate}
   \item 
@@ -325,15 +337,55 @@ Accomplishments:
 
 \subsection{Update Writing Progress Notebook}
 \label{sub:WPsheet}
+The writing progress notebook enables the tracking of progress on a project basis \footnote{\url{https://github.com/MooersLab/writing-progress-2024-25}}.
+The Notebook automatically updates sums of words written and minutes spent across all projects on a given day.
+It only takes a few seconds to enter the number of words written and the time spent for a specific project on that project's Google Sheet. 
+If you have Voice In plus activated, say the words ``open sheet 37'' to have the worksheet for project 37 opened in the web browser.
+If not, click on this direct link to the Google Sheet in the compiled PDF of this writing log \footnote{\url{<insert link for specific sheet>}}.
 
 Update the sheet for this project with the total number of minutes spent on this project and the word count.
 The word count is accessed in Overleaf under the menu pull-down.
 The word count operation has to be applied to a recently compiled tex document.
 
 
+
+
+
+
 \subsection{Update Zettelka\"sten in org-roam}
 \label{sub:zk}
 Update your knowledge base if you found anything worth adding to it.
+
+If you maintain a knowledgebase like a Zettelka\"sten in org-roam or Obsidian or Roam or Notion, you might want to consider making additions a literature notes and permanent notes at the end of a work session.
+The name of the index for this project is \verb|XXXXXXXXX|.
+Enter \mintinline{emacs}{Control-c n f} to search for this project note.
+This knowledge base can be used to store information that you may want to use eventually in the paper.
+
+You could alternatively create a section at the bottom of this writing log for the purpose of storing this kind of information in a list.
+Often such listed are very useful for the planning and for the development of the manuscript.
+While such notes can be stored in an annotated bibliography (), I seem to be less likely to utilize this information while working on a manuscript because the annotated bibliographies in a different document.
+Because it is out of sight, it is also out of mind.
+
+The advantage of keeping these bits of knowledge inside of the writing log is that you can link entries made in the daily log section to these bits of knowledge by using the \verb||\label{}|| and \verb|\ref{}| macros of LaTeX.
+You can also set up label and ref pairs between to-do items and the bits of knowledge.
+Some of these notes May refer to a particular references so you can include the cite keys with these notes if reference has been included in BibTeX library file that is sourced at the bottom of this file.
+I usually source the BibTeX library file that I am using in the annotated bibliography for a the particular project.
+Keeping these items together in one document will improve the odds that you act upon the collected information, and it reduces the mental bandwidth that you have to commit to managing this writing log.
+
+Another approach that I use sometimes is to include such information on lines that have been commented out in the manuscriprt's tex document near where I want to use that information.
+I do have to admit that this approach can become a little unwieldy it if the comments wind up spanning many lines.
+The clutter can be eliminated by using a section\ref{knowledge} at the bottom of the writing log has discussed above .
+
+These notes that you may add might be in the form of what are called \textbf{permanent notes} that include new insights or plans for for the work.
+These thoughts are not directly linked or derived from any particular literature reference.
+Another kind of note is known as a \textbf{citation note} or \textbf{literature note} and is directly derived from a specific reference.
+These kind of notes will contain the BibTeX citekey.
+
+If you are using the Pomodoro method, you would probably want to commit the last one or two poms of a work session on a writing project to the updating of your knowledge base.
+If you have been lagging on doing such updates, you may want to commit four to six poms to this kind of work; you might have to do this across multiple days if you have fallen behind.
+
+
+
 
 
 \subsection{Timeline or Benchmarks}
@@ -365,9 +417,23 @@ It is best to try to map out a timeline so that the project can continue to move
 \label{sub:next}
 
 List the next task or action to be taken to move the project forward.
+The section is supposed to contain one to do item.
+It is the next task that needs to be done.
+The idea to determine in at the end of the current work session what the next action should be so that you do not have to spend time selecting the next action item when you return to the project.
+This idea came from David Allen, the author of ``Getting things done''.
+
+I have to admit that I rarely do this task next. 
+I generally reconsider all of the pending to do's at the start of my work session, and I often wind up identifying a new task that was not identified as the ``Next Action'' at the end of the last work session.
+Anyways, you do gain the Peace of Mind knowing that you have identified the next step, although you may not take it.
+If you do not use this section, go ahead and delete it.
+
 
 \subsection{To be done}
 \label{sub:to-do}
+
+These are the tasks that are thought to be required to get the project finished.
+The prioritizing of the tasks is the hard part.
+The book ``Time Power'' by Charles Hobbs provides helpful helpful guidance.
 
 \bi
 \item 
@@ -455,6 +521,13 @@ The word count tends to approach a plateau in the latter stages of writing.
 
 \subsection{To be done someday}
 \label{subsec:someday}
+
+This section stores tasks that are related to the current project and that may be worth doing someday.
+Often these tasks are tangential to addressing the central hypothesis of the paper.
+This is a place for capturing those wonderful ideas.
+Sometimes these ideas blossom into new projects.
+This section can capture ideas that might be mentioned in terms of future work in the discussion section of the manuscript.
+
 
 \bi
     \item  
