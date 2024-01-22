@@ -1,13 +1,19 @@
 ![Version](https://img.shields.io/static/v1?label=writingLogTemplate&message=0.3&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-# A writing log template in LaTeX for use on Overleaf
-
+# Writing log in LaTeX
 
 Use this writing log in parallel to the main writing project document to track your progress and record your plans when using LaTeX.
 This template can be used in any text editor that supports LaTeX, including on-line servers like Overleaf.
 Other compatiable text editors include Visual Studio Code, Vim, NeoVim, Emacs, TextMate, Sublime Text, and so on.
 For an informal review and install instructions for 18 leading text editors, visit [here](https://mooerslab.github.io/pymolsnips/#editors).
+
+The writing log is a document that is external to the manuscript.
+It is used to store the plans and progress made on a one manuscript.
+It is tool for enhancing your focus and sustaining forward momentum on the writing project.
+It is also tool that ease re-engagement in an interrupted writing project.
+It is like a master thinking document or second brain for a writing project.
+
 
 ## Features
 
@@ -18,9 +24,21 @@ For an informal review and install instructions for 18 leading text editors, vis
 - A writing log section for recording notes by each day's accomplishments.
 - Plot of wordcount by writing session to track your progress.
 
-Version 0.3 of the writing log is divided into four sections: project intiation; daily entries; future additions and tangents; and Guidelines, checklists, protocols, and helpful.
+## Instructions
 
-### Project intiation
+Instructions for using the writing log are found in the annotations in the template.
+You can delete these after they are no longer needed.
+
+Version 0.3 of the writing log is divided into four sections: 
+
+- project initiation
+- daily entries
+- future additions and tangents
+- Guidelines, checklists, protocols, and helpful tips
+
+The subsections of these four sections are shown below.
+
+## Project initiation
 
 - Rationale
 - Audience
@@ -32,11 +50,11 @@ Version 0.3 of the writing log is divided into four sections: project intiation;
 - Prior discussion points
 - Potential titles
 - Potential keywords
-- Protential abstract
+- Potential abstract
 - Abbreviations
-- Potetial collaborators
-- Potetial competitors
-- Potetial reviewers
+- Potential collaborators
+- Potential competitors
+- Potential reviewers
 - Draft cover letter
 
 
@@ -104,6 +122,10 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 ## Related projects of possible interest
 
 - [Writing log template in Org-mode](https://github.com/MooersLab/writingLogTemplateInOrg)
+- [Writing log template in reStructuredText](https://github.com/MooersLab/writing-log-rst) reStructuredText is used by programmers for documentation.
+- [Writing log template in Markdown](https://github.com/MooersLab/writing-log-md) Markdown variant. Read and rendered to PDF by most good text editors.
+- [Writing log template in ODT](https://github.com/MooersLab/writing-log-odt) ODT can be read by Open Office, LibreOffice and MS Word.
+- [Writing log template in DOCX for MS Word](https://github.com/MooersLab/writing-log-docx) MS Word variant. Probably the least suitable format for this task.
 - [Voice computing related repos](https://github.com/MooersLab#voice-computing)
 - [LaTeX manuscript template](https://github.com/MooersLab/manuscriptInLaTeX/edit/main/README.md)
 - [Org-mode manuscript template](https://github.com/MooersLab/manuscriptInOrg/edit/main/README.md)
