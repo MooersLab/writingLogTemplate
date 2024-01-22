@@ -129,12 +129,9 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 - [Voice computing related repos](https://github.com/MooersLab#voice-computing)
 - [LaTeX manuscript template](https://github.com/MooersLab/manuscriptInLaTeX/edit/main/README.md)
 - [Org-mode manuscript template](https://github.com/MooersLab/manuscriptInOrg/edit/main/README.md)
-- [Workbook for 2022 for tracking time spent and words written by project](https://github.com/MooersLab/writingProgress2022)
 - [Slideshow template in LaTeX](https://github.com/MooersLab/slideshowTemplateLaTeX)
 - [Annotated bibliography Template in LaTeX](https://github.com/MooersLab/annotatedBibliography)
-- [Diary for 2022 in LaTeX](https://github.com/MooersLab/diary2022inLaTeX)
-- [Diary for 2023 in LaTeX](https://github.com/MooersLab/diary2023inLaTeX)
-- [latex-emacs profile](https://github.com/MooersLab/latex-emacs)
+- [Diary for 2024 in LaTeX](https://github.com/MooersLab/diary2024inLaTeX)- [latex-emacs profile](https://github.com/MooersLab/latex-emacs)
 - [default Emacs profile](https://github.com/MooersLab/configorg)
 - [snippets for latex-mode in Emacs](https://github.com/MooersLab/snippet-latex-mode)
 - [Quizzes about Emacs to improve recall of keybindings](https://github.com/MooersLab/qemacs)
@@ -142,3 +139,4 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 - [Video link to talk about GhostText, Data Science Workshop, July 2022](https://mediasite.ouhsc.edu/Mediasite/Channel/python/watch/4da0872f028c4255ae12935655e911321d)
 - [Slideshow about using LaTeX in Emacs, Berlin Emacs Meetup, 31 August 2022](https://github.com/MooersLab/BerlinEmacsAugust2022)
 - [The writer's crede](https://github.com/MooersLab/thewriterslaw)
+
