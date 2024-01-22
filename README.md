@@ -4,7 +4,7 @@
 # A writing log template in LaTeX for use on Overleaf
 
 
-Use this writing log in parallel to the main writing project document to track your progress and record your plans.
+Use this writing log in parallel to the main writing project document to track your progress and record your plans when using LaTeX.
 This template can be used in any text editor that supports LaTeX, including on-line servers like Overleaf.
 Other compatiable text editors include Visual Studio Code, Vim, NeoVim, Emacs, TextMate, Sublime Text, and so on.
 For an informal review and install instructions for 18 leading text editors, visit [here](https://mooerslab.github.io/pymolsnips/#editors).
@@ -17,6 +17,60 @@ For an informal review and install instructions for 18 leading text editors, vis
 - Support for generating a references cited section form a Bibtex library.
 - A writing log section for recording notes by each day's accomplishments.
 - Plot of wordcount by writing session to track your progress.
+
+Version 0.3 of the writing log is divided into four sections: project intiation; daily entries; future additions and tangents; and Guidelines, checklists, protocols, and helpful.
+
+### Project intiation
+
+- Rationale
+- Audience
+- Target journals
+- Related projects
+- Potential Introduction
+- Potential Results
+- Potential Discussion points
+- Prior discussion points
+- Potential titles
+- Potential keywords
+- Protential abstract
+- Abbreviations
+- Potetial collaborators
+- Potetial competitors
+- Potetial reviewers
+- Draft cover letter
+
+
+### Daily entries
+
+- Daily protocol
+- Daily Log
+- Update writing progress notebook
+- Update personal knowledge base
+- Timeline or Benchmarks
+- Next action
+- To be done
+- Word Count
+
+
+### Future additions and tangents
+
+- Ideas to consider adding to the manuscript
+  + Introduction
+  + Results
+  + Discussion
+- To be done someday
+- Spin off writing projects
+
+
+### Guidelines, checklists, protocols, helpful hints
+ 
+- Tips for using Overleaf
+- Protocol for running Grammarly in Overleaf
+- Guidelines for debugging the annotated bibliography
+- Graphical Abstract
+- Guidelines for benchmarks
+- Guidelines for using Writing Progress Notebook
+- Guidelines for using a personal knowledge base
 
 ## Usage on Overleaf
 
