@@ -21,6 +21,7 @@ It is like a master thinking document or a second brain for a writing project.
 - A table of contents that is automatically generated and hyperlinked.
 - An automatically generated index that is hyperlinked.
 - Support for generating a references cited section from a Bibtex library.
+- Section for lists required for mot manuscripts, including an inventory of the data locations.
 - A writing log section for recording notes on each day's accomplishments.
 - Plot of wordcount by writing session to track your progress.
 
