@@ -148,4 +148,10 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 | Version 0.3 | First posted.                       | 2024 January 22 |
 | Version 0.4 | Added subsection on data inventory. | 2024 April 5    |
 
+## Sources of Funding
+
+- NIH: R01 CA242845
+- NIH: R01 AI088011
+- NIH: P30 CA225520 (PI: R. Mannel)
+- NIH P20GM103640 and P30GM145423 (PI: A. West)
 
