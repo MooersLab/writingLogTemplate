@@ -1,4 +1,306 @@
+\documentclass[10pt,letterpaper]{article}
+% \usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage[letterpaper, total={7in, 9in}]{geometry}
+%Print page numbers in the upper right corner rather than the bottom center.
 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+\pagestyle{myheadings}
+\usepackage{datetime2}
+\usepackage{minted}
+\usepackage{ulem}
+\usepackage{spreadtab}
+\makeindex
+%Print page numbers in the upper right corner rather than the bottom center.
+\pagestyle{myheadings}
+% Code for plotting table 
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{colortbl}
+
+\pgfplotstableset{% global config, for example in the preamble
+  every head row/.style={before row=\toprule,after row=\midrule},
+  every last row/.style={after row=\bottomrule},
+  fixed,precision=2,
+}
+
+% todolist env from https://tex.stackexchange.com/questions/247681/how-to-create-checkbox-todo-list
+% done with checkmark, wontfix with x, next with finger.
+% Use square brackets around the commands: e.g., [\next]
+\usepackage{enumitem,amssymb}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\usepackage{pifont}
+\newcommand{\nmark}{\ding{42}}% next
+\newcommand{\cmark}{\ding{51}}% checkmark
+\newcommand{\xmark}{\ding{55}}% x-mark
+\newcommand{\wmark}{\ding{116}}% wait mark, inverted triangle representing yield sign
+
+\newcommand{\done}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}%
+  \hspace{-2.5pt}}
+\newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
+\newcommand{\waiting}{\rlap{\raisebox{0.18ex}{\hspace{0.17ex}\scriptsize \wmark}}$\square$}
+% \newcommand{\next}{\nmark}%
+\bibliographystyle{cell}
+
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+
+\newcommand{\be}{\begin{enumerate}}
+\newcommand{\ee}{\end{enumerate}}
+
+
+
+\title{Writing Log for Project \#\#\#\#}
+\author{Blaine H. M. Mooers \\University of Oklahoma Health Sciences Center}
+
+\pgfplotsset{compat=1.18} 
+
+\makeindex
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+
+\section*{Introduction}
+
+
+This template contains a table of contents, numbered outline, and an index that support navigating the document when it has been rendered into a PDF. 
+The label and ref macros are part of LaTeX's hyperlinking system.
+Items in the table of contents and in the index are hyperlinked to sites in the body of the writing log.
+When the tex file is being viewed on Overleaf, the file outline will appear in the left column.
+You can navigate to different sections of the document by clicking on the file outline in this left column.
+
+\paragraph*{Version 0.3} is a massive restructuring into four sections for improved clarity and simplicity.
+The comments in the sections below can be commented out with a good text editor or by inserting a percent sign at the start of each line.
+Some of the explanatory text some may have value in the future.
+You can always comment out the lines that contain the explanatory text by inserting a percent sign at the start of each line.
+In Overleaf, you would can select the block of text and then enter command-/ to comment out the block.
+
+
+
+\section{Project initiation}
+\subsection{Rationale for this article}
+\label{sub:why}
+
+What is the rationale for writing this paper?
+To help advance the field?
+To help win or renew a grant funding?
+To establish credibility in a new field for my lab?
+
+
+\subsection{Audience for the paper}
+\label{sub:audience}
+Describe in a paragraph of prose the target audience of this paper.
+
+
+
+\subsection{Potential target journals for submission}
+\label{sub:target-journals}
+
+The journal titles are enumerated in descending order of desirability.
+You have a plan B journal identified at the time of submission so that you can respond swiftly if the plan A journal rejects the paper.
+
+\be
+  \item 
+  \item
+  \item
+  \item
+\ee
+
+
+\subsection{Related projects}
+\label{sub:related-projects}
+
+By listing projects that are closely and even somewhat distantly related to the project at hand, it is possible to identify some synergies that might otherwise be overlooked.
+For example, when working in a new area, it is often useful to capitalize on the investment made in reading in the new field by capturing those insights in the form of a review article or book chapter.
+If you use Overleaf, you can include a hyperlink to the project's webpage.
+
+\begin{itemize}
+  \item
+  \item 
+  \item 
+  \item 
+\end{itemize}
+
+\subsection{Draft Introduction}
+\label{subsec:Introduction}
+
+In this section and in the next two sections, we assemble the key components of the paper.
+You may wonder why we did not do this in the manuscript document.
+We find it easier to keep this prose close to the other lists in the sections that follow these subsections.
+In other words, we are using the writing log as an incubator for the initial drafts of these components of the paper.
+
+We craft a two-paragraph introduction following the method of Lindsay (Lindsay 2020 Scientific Writing Thinking In Words 2nd Ed).
+We do this drafting in the writing log until we are satisfied that we have a vision of the project that is clear enough to proceed.
+At this point, we transfer the draft introduction to the main manuscript.
+
+\subsection{Potential results}
+\label{subsec:Results.}
+
+This section contains a list of the potential key results that are vital to addressing the central hypothesis.
+Usually, there are 4 to 6 key results. 
+Yes, we can think about the nature of the results even before we have performed the experiments.
+
+We are not necessarily thinking about the expected results, but we can guess about the nature of the results with regard to whether they will be in the form of a table, a graph or an image.
+We then do an initial sorting of the results on the basis of how much weight they bear upon testing the central hypothesis.
+This sorting will be the order in which the results are presented, in contrast to the general tendency to deliver the results in the order in which we obtain the results.
+At this point, we might even draft an initial paragraph for the results section that outlines the order of the results.
+This initial paragraph helps to set the reader's expectations about the results that follow. 
+After this initial paragraph is assembled and the planned results are listed, we will transfer this text to the main manuscript.
+
+\begin{enumerate}
+  \item 
+  \item
+  \item
+  \item
+  \item
+  \item
+\end{enumerate}
+
+
+\subsection{Potential discussion points}
+\label{subsec:futureDiscussion}
+
+After some years of experience in a particular field, one has a sense of the critical discussion points about how the proposed results will relate to the results from the work of others.
+The content of this discussion is supposed to be about the relationship of our results to those reported by others.
+Sometimes, we expand these discussion points into initial paragraphs.
+After we think this section is well-developed, we will transfer it to the main manuscript.
+
+\subsection{Prior discussion points}
+\label{subsec:priorDiscussion}
+The discussion section should contain new points of discussion.
+If you are writing a series of papers about a topic, it is all too easy to recycle old discussion points.
+Before making the transfer mentioned above, we will check the proposed discussion points against those we have published to avoid repeating ourselves and remind ourselves to review our new results against our prior discussion points.
+You can check this list against the discussion section of your current manuscript to ensure that you are raising new points or updating prior points while appropriately citing yourself. 
+The new results may require that we update our published discussion points.
+
+
+\begin{enumerate}
+  \item 
+  \item
+  \item
+\end{enumerate}
+
+
+
+\subsection{Potential titles}
+\label{sub:titles}
+
+Titles of 3-7 words long are easier for people to remember.
+We generally iterate through enough titles to find one that is catchy.
+Sometimes, this requires generating a list of more than 100 titles.
+This work takes time and should not be delayed until the day of manuscript submission.
+
+
+\begin{enumerate}
+  \item 
+  \item 
+  \item
+\end{enumerate}
+
+
+
+\subsection*{Potential Keywords}
+\label{sub:keywords}
+
+Below is a list of potential keywords.
+Abstracting services use the title and abstract to extract terms for searching.
+As a result, select keywords that are not in these two parts of the paper.
+Usually, there is a limit on the number of keywords, so we choose the keywords carefully.
+We make a long list of keywords and select the best ones.              
+\be
+    \item open science
+    \item 
+    \item 
+\ee
+
+\subsection*{Potential Abstract}
+
+After filling in the above subsections, we are in a solid position to draft the abstract for the paper.
+This is just a draft and will be updated as the results emerge.
+However, going through this exercise is another way of visualizing the paper's contents and helps to strengthen that vision.
+Such clarity is essential to maintain momentum.
+
+
+
+\subsection{Abbreviations}
+\label{sub:abbrev}
+
+A common mistake is to delay the assembly of the list of acronyms and abbreviations.
+An incomplete list tells the reviewer that the authors assembled the manuscript in a hurry.
+
+
+\begin{quote}
+   Acronyms/Abbreviations/Initialisms should be defined the first time they appear in each of three sections: the abstract; the main text; the first figure or table. When defined for the first time, the acronym/abbreviation/initialism should be added in parentheses after the written-out form.
+\end{quote}
+
+Abbreviations are also listed at the end of the manuscript.
+
+\begin{description}
+    \item[abbrev] its expansion 
+    \item[abbrev] its expansion 
+    \item[abbrev] its expansion 
+    \item[abbrev] its expansion 
+\end{description}
+
+
+
+\subsection{Potential collaborators: name; institution;e-mail}
+\label{sub:collaborators}
+
+\bi
+\item 
+\item
+\ei
+
+
+
+
+\subsection{Potential competitors: name; institution;e-mail}
+\label{sub:competitors}
+
+\bi
+\item
+\item 
+\ei
+
+
+
+\subsection{Potential reviewers: name; institution;e-mail}
+\label{sub:reviewers}
+
+\be
+    \item 
+    \item
+\ee
+
+
+\subsection{Draft cover letter}
+\label{sub:coverletter}
+
+It is never too early to start writing the cover letter for a project.
+This letter is another form of summary that is part of the actualization of the project.
+If we have enough energy and time left over from completing the initialization of the writing project, we may proceed to drafting the cover letter.
+The advantage of doing so is to capture one's excitement about the project.
+
+\subsection{Inventory of data}
 
 A common problem when working on a paper intermittently is to remember where you stored the data and the code needed for its analysis.
 It can be difficult to find these items because they may be stored in folders with names that are not so obvious.
@@ -57,3 +359,6 @@ They can be stored in the form of a two column table.
     \caption{Project's computer code storage locations.}
     \label{tab:my_label}
 \end{table}
+
+
+
