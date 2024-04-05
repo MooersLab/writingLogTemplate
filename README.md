@@ -140,3 +140,12 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 - [Slideshow about using LaTeX in Emacs, Berlin Emacs Meetup, 31 August 2022](https://github.com/MooersLab/BerlinEmacsAugust2022)
 - [The writer's crede](https://github.com/MooersLab/thewriterslaw)
 
+
+## Version History
+
+|Version      | Changes                             | Date            |
+|*-----------*|*-----------------------------------*|*---------------*|
+| Version 0.3 | First posted.                       | 2024 January 22 |
+| Version 0.4 | Added subsection on data inventory. | 2024 April 5    |
+
+
