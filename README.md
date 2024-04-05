@@ -144,7 +144,7 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 ## Version History
 
 |Version      | Changes                             | Date            |
-|*-----------*|*-----------------------------------*|*---------------*|
+|:-----------:|:-----------------------------------:|:---------------:|
 | Version 0.3 | First posted.                       | 2024 January 22 |
 | Version 0.4 | Added subsection on data inventory. | 2024 April 5    |
 
