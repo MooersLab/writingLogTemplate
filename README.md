@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=writingLogTemplate&message=0.4&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=writingLogTemplate&message=0.5&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 # Writing log in LaTeX
@@ -149,10 +149,11 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 
 ## Version History
 
-|Version      | Changes                             | Date            |
-|:-----------:|:-----------------------------------:|:---------------:|
-| Version 0.3 | First posted.                       | 2024 January 22 |
-| Version 0.4 | Added subsection on data inventory. | 2024 April 5    |
+|Version      | Changes                                               | Date            |
+|:-----------:|:-----------------------------------------------------:|:---------------:|
+| Version 0.3 | First posted.                                         | 2024 January 22 |
+| Version 0.4 | Added subsections on data and code inventories.       | 2024 April 5    |
+| Version 0.5 | Added subsections on lists of videos and blogs.       | 2024 April 7    |
 
 ## Sources of Funding
 
