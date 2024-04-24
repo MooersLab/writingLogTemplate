@@ -15,7 +15,7 @@ It is also a tool that eases re-engagement in an interrupted writing project.
 It is like a master thinking document or a second brain for a writing project.
 
 If you start the name of the writing log with the word `log', this will ease navigating to the current file when using a terminal supported by tab completion.
-I use `log` followed by the project number and name in camel or Pascal case.
+I use `log` followed by the project number and name in the Camel or Pascal case.
 This helps distinguish the log file from the main*.tex file that contains the manuscript.
 
 
@@ -66,7 +66,7 @@ The subsections of these four sections are shown below.
 
 ### Daily entries
 
-- Daily protocol
+- Daily Protocol
 - Daily Log
 - Update writing progress notebook
 - Update personal knowledge base
