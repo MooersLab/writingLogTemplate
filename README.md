@@ -120,7 +120,7 @@ Compile times are several seconds on a 2018 MacBook Pro with 32 GB of RAM.
   + `C-x C-w` to write the current document to a new file name.
   + `C-x u` to undo the last change.
   + `M-UP` or `M-DOWN` to shift lines up and down. UP and Down are the arrow keys.
-  + `C-c =` to create a navigable table of contents at the top of the tex file.
+  + `C-c =` to create a navigable table of contents at the top of the `tex` file.
   + `C-c C-a` to export to pdflatex, bibtex, make index, and open the resulting PDF in the default PDF viewer.
 
 For more keybindings, see the README.md file of the repository for the [latex-emacs](https://github.com/MooersLab/latex-emacs) profile.
@@ -130,7 +130,7 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 - [Writing log template in Org-mode](https://github.com/MooersLab/writingLogTemplateInOrg)
 - [Writing log template in reStructuredText](https://github.com/MooersLab/writing-log-rst) reStructuredText is used by programmers for documentation.
 - [Writing log template in Markdown](https://github.com/MooersLab/writing-log-md) Markdown variant. Read and rendered to PDF by most good text editors.
-- [Writing log template in ODT](https://github.com/MooersLab/writing-log-odt) ODT can be read by Open Office, LibreOffice and MS Word.
+- [Writing log template in ODT](https://github.com/MooersLab/writing-log-odt) ODT can be read by Open Office, LibreOffice, and MS Word.
 - [Writing log template in DOCX for MS Word](https://github.com/MooersLab/writing-log-docx) MS Word variant. This is probably the least suitable format for this task.
 - [Voice computing-related repos](https://github.com/MooersLab#voice-computing)
 - [LaTeX manuscript template](https://github.com/MooersLab/manuscriptInLaTeX/edit/main/README.md)
