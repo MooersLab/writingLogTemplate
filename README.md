@@ -6,7 +6,7 @@
 Use this writing log in parallel to the main writing project document to track your progress and record your plans when using LaTeX.
 This template can be used in any text editor that supports LaTeX, including online servers like Overleaf.
 Other compatible text editors include Visual Studio Code, Vim, NeoVim, Emacs, TextMate, Sublime Text, etc.
-Visit [here] (https://mooerslab.github.io/pymolsnips/#editors) for an informal review and install instructions for 18 leading text editors.
+Visit [here](https://mooerslab.github.io/pymolsnips/#editors) for an informal review and install instructions for 18 leading text editors.
 
 The writing log is a document that is external to the manuscript.
 It stores the plans and progress made on a specific manuscript.
