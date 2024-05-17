@@ -14,9 +14,9 @@ It is a tool for narrowing your focus and sustaining momentum on the writing pro
 It is also a tool that eases re-engagement in an interrupted writing project.
 It is like a master thinking document or a second brain for a writing project.
 
-If you start the name of the writing log with the word `log', this will ease navigating to the current file when using a terminal supported by tab completion.
+If you start the name of the writing log with the word `log`, this will ease navigating to the current file when using a terminal supported by tab completion.
 I use `log` followed by the project number and name in the Camel or Pascal case.
-This helps distinguish the log file from the main*.tex file that contains the manuscript.
+This helps distinguish the log file from the `main*.tex` file that contains the manuscript.
 
 
 ## Features
