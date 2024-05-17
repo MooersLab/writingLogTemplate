@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=writingLogTemplate&message=0.4.1&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=writingLogTemplate&message=0.4.2&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 # Writing log in LaTeX
@@ -33,8 +33,8 @@ This helps distinguish the log file from the `main*.tex` file that contains the 
 ## Instructions
 
 Instructions for using the writing log are found in the annotations in the template.
-You can use `logXXXXhiddenCommentsVer04.tex` which hides the comments to spare you the trouble of deleting them while retaining them for future reference.
-
+You can use [logXXXXhiddenCommentsVer04.tex](https://github.com/MooersLab/writingLogTemplate/blob/main/logXXXhiddenCommentsVer0.4.tex), which hides the comments to spare you the trouble of deleting them while retaining them for future reference.
+Replace XXX with the project number.
 
 Version 0.3 of the writing log is divided into four sections: 
 
@@ -155,6 +155,7 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 | Version 0.3      | First posted.                                         | 2024 January 22 |
 | Version 0.4.0    | Added subsections on data and code inventories.       | 2024 April 5    |
 | Version 0.4.1    | Added subsections on lists of videos and blogs.       | 2024 April 7    |
+| Version 0.4.2    | Added version with hidden comments to spare trouble of deleting them.       | 2024 May 17    |
 
 ## Sources of Funding
 
