@@ -33,7 +33,8 @@ This helps distinguish the log file from the main*.tex file that contains the ma
 ## Instructions
 
 Instructions for using the writing log are found in the annotations in the template.
-You can go ahead and delete these after they are no longer needed.
+You can use `logXXXXhiddenCommentsVer04.tex` which hides the comments to spare you the trouble of deleting them while retaining them for future reference.
+
 
 Version 0.3 of the writing log is divided into four sections: 
 
