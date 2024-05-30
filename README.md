@@ -3,7 +3,7 @@
 
 # Writing log in LaTeX
 
-Use this writing log in parallel to the main writing project document to track your progress and record your plans when using LaTeX.
+When using LaTeX, use this writing log in parallel to the main writing project document to track your progress and record your plans.
 This template can be used in any text editor that supports LaTeX, including online servers like Overleaf.
 Other compatible text editors include Visual Studio Code, Vim, NeoVim, Emacs, TextMate, Sublime Text, etc.
 Visit [here](https://mooerslab.github.io/pymolsnips/#editors) for an informal review and install instructions for 18 leading text editors.
@@ -14,7 +14,7 @@ It is a tool for narrowing your focus and sustaining momentum on the writing pro
 It is also a tool that eases re-engagement in an interrupted writing project.
 It is like a master thinking document or a second brain for a writing project.
 
-If you start the name of the writing log with the word `log`, this will ease navigating to the current file when using a terminal supported by tab completion.
+If you start the name of the writing log with the word `log,` this will make navigating to the current file easier when using a terminal supported by tab completion.
 I use `log` followed by the project number and name in the Camel or Pascal case.
 This helps distinguish the log file from the `main*.tex` file that contains the manuscript.
 
@@ -100,7 +100,7 @@ The subsections of these four sections are shown below.
 ## Usage on Overleaf
 
 - Upload the files into your current writing project.
-- Open the writing log file to edit it and compile it on the fly.
+- Open the writing log file to edit and compile it on the fly.
 - Compile times are lightning fast.
 - You can configure Overleaf to use its default, Vim, or Emacs key bindings.
 
@@ -155,7 +155,8 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 | Version 0.3      | First posted.                                         | 2024 January 22 |
 | Version 0.4.0    | Added subsections on data and code inventories.       | 2024 April 5    |
 | Version 0.4.1    | Added subsections on lists of videos and blogs.       | 2024 April 7    |
-| Version 0.4.2    | Added version with hidden comments to spare trouble of deleting them.       | 2024 May 17    |
+| Version 0.4.2    | Added version with hidden comments to spare the trouble of deleting them.       | 2024 May 17    |
+| Version 0.4.2    | Edited the README.md for improving readabiity.      | 2024 May 30    |
 
 ## Sources of Funding
 
