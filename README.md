@@ -28,6 +28,7 @@ This helps distinguish the log file from the `main*.tex` file that contains the 
 - Section for lists required for most manuscripts like keywords.
 - Includes inventories of the private and public data locations.
 - A writing log section for recording notes on each day's accomplishments.
+- A timeline with benchmarks. A plan without deadlines is just a wish list.
 - Plot of wordcount by writing session to track your progress.
 
 ## Instructions
@@ -36,7 +37,7 @@ Instructions for using the writing log are found in the annotations in the templ
 You can use [logXXXXhiddenCommentsVer04.tex](https://github.com/MooersLab/writingLogTemplate/blob/main/logXXXhiddenCommentsVer0.4.tex), which hides the comments to spare you the trouble of deleting them while retaining them for future reference.
 Replace XXX with the project number.
 
-Version 0.3 of the writing log is divided into four sections: 
+Version 0.3 of the writing log was divided into four sections: 
 
 - project initiation
 - daily entries
@@ -69,12 +70,13 @@ The subsections of these four sections are shown below.
 
 - Daily Protocol
 - Daily Log
-- Update writing progress notebook
-- Update personal knowledge base
-- Timeline or Benchmarks
 - Next action
 - To be done
+- Timeline or Benchmarks
 - Word Count
+- Update writing progress notebook
+- Update personal knowledge base
+
 
 
 ### Future additions and tangents
