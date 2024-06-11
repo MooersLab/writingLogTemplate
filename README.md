@@ -157,8 +157,9 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 | Version 0.3      | First posted.                                         | 2024 January 22 |
 | Version 0.4.0    | Added subsections on data and code inventories.       | 2024 April 5    |
 | Version 0.4.1    | Added subsections on lists of videos and blogs.       | 2024 April 7    |
-| Version 0.4.2    | Added version with hidden comments to spare the trouble of deleting them.       | 2024 May 17    |
-| Version 0.4.2    | Edited the README.md for improving readabiity.      | 2024 May 30    |
+| Version 0.4.2    | Added version with hidden comments to spare the trouble of deleting them. | 2024 May 17    |
+| Version 0.4.2    | Edited the README.md for improving readabiity.        | 2024 May 30    |
+| Version 0.5      | Added subsubsection for mindmap.                      | 2024 May 30    |
 
 ## Sources of Funding
 
