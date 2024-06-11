@@ -81,6 +81,8 @@ The subsections of these four sections are shown below.
 
 ### Future additions and tangents
 
+- Mind map for this project
+- Mind map for the research program (the big picture)
 - Ideas to consider adding to the manuscript
   + Introduction
   + Results
