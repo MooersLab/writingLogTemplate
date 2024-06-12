@@ -6,7 +6,8 @@
 This writing log is for research papers.
 The contents of our writing log for a grand application, book, platform talk, lecture, and seminar would be similar in nature but differ slightly in content.
 We have not developed writing logs for these particular kinds of writing projects yet.
-We plan to do that someday when time permits
+We plan to do that someday when time permits.
+In the meantime, you can use this writing log as a template to develop writing logs for these other kinds of writing projects.
 
 When using LaTeX, use this writing log in parallel to the main writing project document to track your progress and record your plans.
 This template can be used in any text editor that supports LaTeX, including online servers like Overleaf.
