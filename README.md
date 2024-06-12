@@ -1,7 +1,7 @@
 ![Version](https://img.shields.io/static/v1?label=writingLogTemplate&message=0.4.2&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-# Writing log in LaTeX
+# Writing log for Research Papers in LaTeX
 
 When using LaTeX, use this writing log in parallel to the main writing project document to track your progress and record your plans.
 This template can be used in any text editor that supports LaTeX, including online servers like Overleaf.
@@ -66,7 +66,8 @@ The subsections of these four sections are shown below.
 - Draft cover letter
 - Inventory of data on hand and where is located
 - List of associated GitHub repositories
-
+- List of relevant blog posts
+- List of relevant vidoes
 
 ### Daily entries
 
