@@ -64,6 +64,8 @@ The subsections of these four sections are shown below.
 - Potential competitors
 - Potential reviewers
 - Draft cover letter
+- Inventory of data on hand and where is located
+- List of associated GitHub repositories
 
 
 ### Daily entries
@@ -161,7 +163,8 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 | Version 0.4.1    | Added subsections on lists of videos and blogs.       | 2024 April 7    |
 | Version 0.4.2    | Added version with hidden comments to spare the trouble of deleting them. | 2024 May 17    |
 | Version 0.4.2    | Edited the README.md for improving readabiity.        | 2024 May 30    |
-| Version 0.5      | Added subsubsection for mindmap.                      | 2024 May 30    |
+| Version 0.5.0      | Added subsubsection for mindmap.                      | 2024 June 11    |
+| Version 0.5.1      | Added subsubsection for GitHub repos                      | 2024 June 12    |
 
 ## Sources of Funding
 
