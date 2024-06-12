@@ -67,7 +67,7 @@ The subsections of these four sections are shown below.
 - Inventory of data on hand and where is located
 - List of associated GitHub repositories
 - List of relevant blog posts
-- List of relevant vidoes
+- List of relevant videos
 
 ### Daily entries
 
