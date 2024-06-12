@@ -188,6 +188,7 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 | Version 0.4.2    | Edited the README.md for improving readabiity.        | 2024 May 30    |
 | Version 0.5.0      | Added subsubsection for mindmap.                      | 2024 June 11    |
 | Version 0.5.1      | Added subsubsection for GitHub repos                      | 2024 June 12    |
+| Version 0.5.2      | Added subsubsection for Plans                     | 2024 June 12    |
 
 ## Sources of Funding
 
