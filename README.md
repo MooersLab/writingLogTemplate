@@ -3,13 +3,18 @@
 
 # Writing log for Research Papers in LaTeX
 
+This writing log is for research papers.
+The contents of our writing log for a grand application, book, platform talk, lecture, and seminar would be similar in nature but differ slightly in content.
+We have not developed writing logs for these particular kinds of writing projects yet.
+We plan to do that someday when time permits
+
 When using LaTeX, use this writing log in parallel to the main writing project document to track your progress and record your plans.
 This template can be used in any text editor that supports LaTeX, including online servers like Overleaf.
 Other compatible text editors include Visual Studio Code, Vim, NeoVim, Emacs, TextMate, Sublime Text, etc.
 Visit [here](https://mooerslab.github.io/pymolsnips/#editors) for an informal review and install instructions for 18 leading text editors.
 
 The writing log is a document that is external to the manuscript.
-It stores the plans and progress made on a specific manuscript.
+It stores the plans, decisions, correspondence, and progress made on a specific manuscript.
 It is a tool for narrowing your focus and sustaining momentum on the writing project.
 It is also a tool that eases re-engagement in an interrupted writing project.
 It is like a master thinking document or a second brain for a writing project.
