@@ -74,6 +74,22 @@ The subsections of these four sections are shown below.
 - List of associated GitHub repositories
 - List of relevant blog posts
 - List of relevant videos
+- List of plans
+  + Timeline to do the required experiments to test the hypothesis. 
+  + Secure access to required national laboratory resources at experimental stations (i.e., general user proposal and beamtime requests).
+  + Secure access to computing resources.
+  + Gather the appropriate information from the literature.
+  + Secure funding for the research and manuscript.
+  + Recruit collaborators
+  + Recruit lab members to do the work.
+  + Individual career development for lab members
+  + Biosafety.
+  + Authentication of key biological and chemical resources.
+  + Rigorous statistical sampling and data analysis
+  + Data management and sharing.
+  + The NIH PEDP.
+  + One's own career development
+
 
 ### Daily entries
 
