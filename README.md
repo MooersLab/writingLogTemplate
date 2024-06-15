@@ -66,6 +66,11 @@ The subsections of these four sections are shown below.
 - Potential keywords
 - Potential abstract
 - Abbreviations
+- Acronyms
+- Required plasmids
+- Required cells
+- Required lab supplies
+- Required software
 - Potential collaborators
 - Potential competitors
 - Potential reviewers
@@ -74,21 +79,26 @@ The subsections of these four sections are shown below.
 - List of associated GitHub repositories
 - List of relevant blog posts
 - List of relevant videos
+- List of relevant literature to search and read
+- List of relevant collections of papers in literature management software (e.g., collections in research rabbit)
+- List of relevant RSS feeds
+- Acknowledgments
+- Funding sources
 - List of plans
   + Timeline to do the required experiments to test the hypothesis. 
-  + Secure access to required national laboratory resources at experimental stations (i.e., general user proposal and beamtime requests).
-  + Secure access to computing resources.
+  + User proposals for national laboratory resources.
+  + User proposals for HPC resources.
   + Gather the appropriate information from the literature.
   + Secure funding for the research and manuscript.
   + Recruit collaborators
   + Recruit lab members to do the work.
-  + Individual career development for lab members
+  + Career development plan for each lab member.
   + Biosafety.
   + Authentication of key biological and chemical resources.
   + Rigorous statistical sampling and data analysis
   + Data management and sharing.
   + The NIH PEDP.
-  + One's own career development
+  + One's career development
 
 
 ### Daily entries
