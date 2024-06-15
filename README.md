@@ -119,8 +119,8 @@ The subsections of these four sections are shown below.
 
 ### Future additions and tangents
 
-- Mind map for this project
-- Mind map for the research program (the big picture)
+- New branches on the above mind map for this project and research program
+- Mind map for the research program (the big picture that includes related manuscripts, talks, posters, funded grants, grant applications)
 - Ideas to consider adding to the manuscript
   + Introduction
   + Results
