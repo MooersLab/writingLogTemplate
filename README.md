@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=writingLogTemplate&message=0.5.2&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=writingLogTemplate&message=0.5.3&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 # Writing log for Research Papers in LaTeX
@@ -202,6 +202,7 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 | Version 0.5.0      | Added subsubsection for mindmap.                      | 2024 June 11    |
 | Version 0.5.1      | Added subsubsection for GitHub repos                      | 2024 June 12    |
 | Version 0.5.2      | Added subsubsection for Plans                     | 2024 June 12    |
+| Version 0.5.3      | Expanded lists to include nuts and bolts.                     | 2024 June 15    |
 
 ## Sources of Funding
 
