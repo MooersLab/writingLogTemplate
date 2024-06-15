@@ -71,6 +71,7 @@ The subsections of these four sections are shown below.
 - Required cells
 - Required lab supplies
 - Required software
+- Required safety training
 - Potential collaborators
 - Potential competitors
 - Potential reviewers
