@@ -61,7 +61,9 @@ The subsections of these four sections are shown below.
 - Potential Introduction
 - Potential Results
 - Potential Discussion points
+- Published discussion points
 - Prior discussion points
+- Results and Discussion mind map
 - Potential titles
 - Potential keywords
 - Potential abstract
