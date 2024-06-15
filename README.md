@@ -85,21 +85,23 @@ The subsections of these four sections are shown below.
 - List of relevant RSS feeds
 - Acknowledgments
 - Funding sources
-- List of plans
+- Project summary for grant report.
+- Project summary for annual report.
+- List of plans (likely stored elsewhere).
   + Timeline to do the required experiments to test the hypothesis. 
   + User proposals for national laboratory resources.
   + User proposals for HPC resources.
   + Gather the appropriate information from the literature.
-  + Secure funding for the research and manuscript.
-  + Recruit collaborators
+  + Related current grant(s) and specific aim(s)
+  + Funding sources and account information (e.g., chartfield spreads).
+  + Recruit collaborators.
   + Recruit lab members to do the work.
-  + Career development plan for each lab member.
+  + Career development plans for each lab member, including you.
   + Biosafety.
   + Authentication of key biological and chemical resources.
   + Rigorous statistical sampling and data analysis
   + Data management and sharing.
   + The NIH PEDP.
-  + One's career development
 
 
 ### Daily entries
