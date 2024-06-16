@@ -417,6 +417,32 @@ Abbreviations are also listed at the end of the manuscript.
 
 
 \subsection*{Acknowledgements}
+% It is never too early to start this section.
+% Work on it should not be delayed until the last minute because you risk overlooking somebody's contribution.
+% 
+\be
+\item 
+\ee
+
+\subsection*{Funding sources}
+% It is never too early to start this section.
+% Work on it should not be delayed until the last minute because you risk overlooking a funding source.
+% 
+\be
+\item 
+\ee
+
+\subsection*{Project's progress summary for annual grant report}
+% It is never too early to start this section.
+%
+% 
+\be
+\item 
+\ee
+
+\subsection*{Project's progress summary for annual report to college}
+% It is never too early to start this section.
+% This will be where you inform your superiors what you have been up to.
 % 
 \be
 \item 
@@ -639,14 +665,25 @@ Accomplishments:
 \label{subsec:new-ideas}
 
 
-\subsubsection{Mindmap}
+\subsubsection{New nodes for the mindmap(s)}
 % Mind maps are powerful tools for generating new ideas.
 % They can be used to plan a manuscript at its initiation.
-% They are particularly helpful for mapping out the components of the results section as well as the discussion section.
+% They are particularly helpful for mapping out the components of the results section and the discussion section.
 % If a paper is starting to feel stuck or stale, mind maps can be used to convert the paper into an outline form that then can be used to restructure the paper there by leading to a massive rewrite.
-% Although maps can be generated inside of the tech using the TikZ package \url{https://latexdraw.com/mind-map-latex-tutorial/}, I recommend using the I thought X software because it does not get in the way of the building of the Mind map.
-% If you want to be a purist, you could convert the IthoughtX mind map into a tikz mind map.
-% IthoughtsX does not export to tikz. An exporter may not be hard to write. Another option would be to go through an intermediate mind map file format.
+%
+% Although maps can be generated inside of the LaTeX files using the TikZ package \url{https://latexdraw.com/mind-map-latex-tutorial/}, I recommend using the IthoughtsX software because it does not get in the way of the building of the mind map.
+% If you want to be a purist, you could convert the IthoughtX mind map into a tikz mind map after the mind map has stabilized.
+%
+% IthoughtsX does not export to tikz. An exporter may not be hard to write. 
+%
+% Another option would be to go through an intermediate mind map file format.
+% IthoughtsX exports to the `mm` file format, which is read by Freeplane.
+% Freeplane is a free and powerful alternative or complement to IthoughtsX (https://docs.freeplane.org/).
+% Freeplane is written in Java.
+% Freeplane exports mindmaps to LaTeX, including beamer files, but not to Tikz without installing a plugin.
+% Others have contributed file exporters of various kinds.
+% Freeplane exports files with the `.mm` file extension.
+%
 % You could always export the Mind map to a PDF or PNG file and import it as a figure into the writing log.
 % It might be useful to retain the initial mind map and compare it to the final mind map to gain some insights into how the paper has evolved over time.
 % A mind map can also be generated for a collection of papers in order to show how the work fits into a larger research program.
@@ -712,6 +749,8 @@ Accomplishments:
 
 \subsection{Spin off writing projects}
 \label{subsec:spinoffs}
+% These include new manuscripts, grant applications, books, talks, posters, parts of seminars.
+
 
 \begin{description}
     \item [ ]
@@ -747,7 +786,7 @@ Accomplishments:
 % Hit the Grammarly icon. 
 % Grammarly will check the text in the RichText viewport.
 % Corrections that you make in the RichText viewport are applied to your tex file in the left viewport.
-% Note that the preamble of the document will cause the text to be spread out.
+% Note that the document's preamble will cause the text to be spread out.
 % You may have to scroll down a ways to see the document environment.
 
 
@@ -765,7 +804,7 @@ For a template annotated bibliography, see https://github.com/MooersLab/annotate
 \item There are two styles in the bibtex world: bibtex and biblatex. We are using bibtex. It is simpler. It has fewer fields.
 \item Use Google Scholar bibtex over Medline or PubMed biblatex. 
 \item Often the error is in the bibitem entry above the one indicated in the error messages.
-\item All interior braces must by followed by a comma, including the last one.
+\item All interior braces must be followed by a comma, including the last one.
 \item When stumped, replace the entry with a fresh one from Google Scholar.
 \ee
 
@@ -787,7 +826,7 @@ When submitting larger images, please, keep to the same ratio.
 \end{quote}
 
 % I usually make the mistake of treating the graphical abstract as an afterthought.
-% Then there is no time to make one during the submission of the manuscript.
+% Then there is no time to make one while submitting the manuscript.
 % This can lead to delays or to the journal converting one of your sub-figures into a graphical abstract.
 % A good example of a graphical abstract is found \href{https://www.mdpi.com/2073-4352/11/3/273}{here}.
 
@@ -825,10 +864,10 @@ While such notes can be stored in an annotated bibliography (insert link), I see
 Because it is out of sight, the annotated bibliography is also out of mind.
 
 The advantage of keeping these bits of knowledge inside of the writing log is that you can link entries made in the daily log section to these bits of learning by using the \verb|\label{}| and \verb|\ref{}| macros of \LaTeX.
-You can also set up label and ref pairs between to-do items and the bits of knowledge.
+You can also set up \verb|\label{}| and \verb|\ref{}| pairs between to-do items and the bits of knowledge.
 Some of these notes may refer to a particular reference, so you can include the cite keys with these notes if the reference has been included in the BibTeX library file that is sourced at the bottom of this file.
 I usually source the BibTeX library file I use in the annotated bibliography for a particular project.
-Keeping these items together in one document will increase the odds of you acting on the collected information, reducing the mental bandwidth you have to commit to managing this writing log.
+Keeping these items together in one document will increase your chances of acting on the collected information, reducing the mental bandwidth you have to commit to managing this writing log.
 
 Another approach I use sometimes is to include such information on lines that have been commented out in the manuscript's tex document near where I want to utilize that information.
 I must admit that this approach can become a little unwieldy if the comments span many lines.
