@@ -55,14 +55,17 @@ The subsections of these four sections are shown below.
 ## Project initiation
 
 - Rationale
+- Elevator pitch
 - Audience
 - Target journals
 - Related projects
+- Research program mind map
 - Potential Introduction
 - Potential Results
+ + Potential figures
+ + Potential tables
 - Potential Discussion points
 - Published discussion points
-- Prior discussion points
 - Results and Discussion mind map
 - Potential titles
 - Potential keywords
@@ -101,8 +104,10 @@ The subsections of these four sections are shown below.
   + Career development plans for each lab member, including you.
   + Biosafety.
   + Authentication of key biological and chemical resources.
-  + Rigorous statistical sampling and data analysis
-  + Data management and sharing.
+  + Statistical sampling and power analysis.
+  + data analysis.
+  + Data management (backups, archives).
+  + Data sharing.
   + The NIH PEDP.
 
 
@@ -127,8 +132,14 @@ The subsections of these four sections are shown below.
   + Introduction
   + Results
   + Discussion
+- Graphical abstract
 - To be done someday
 - Spin-off writing projects
+  + manuscripts
+  + grant applications
+  + books
+  + talks
+  + posters
 
 
 ### Guidelines, checklists, protocols, helpful hints
@@ -140,6 +151,7 @@ The subsections of these four sections are shown below.
 - Guidelines for benchmarks
 - Guidelines for using the Writing Progress Notebook
 - Guidelines for using a personal knowledge base
+
 
 ## Usage on Overleaf
 
