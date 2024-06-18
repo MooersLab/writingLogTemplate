@@ -217,6 +217,7 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 | Version 0.5.1      | Added subsubsection for GitHub repos                      | 2024 June 12    |
 | Version 0.5.2      | Added subsubsection for Plans                     | 2024 June 12    |
 | Version 0.5.3      | Expanded lists to include nuts and bolts.                     | 2024 June 15    |
+| Version 0.5.3      | Added subsection on rewriting protocol.                     | 2024 June 18    |
 
 ## Sources of Funding
 
