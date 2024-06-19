@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=writingLogTemplate&message=0.5.3&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=writingLogTemplate&message=0.5.5&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 # Writing log for Research Papers in LaTeX
@@ -98,7 +98,7 @@ The subsections of these four sections are shown below.
   + User proposals for HPC resources.
   + Gather the appropriate information from the literature.
   + Related current grant(s) and specific aim(s)
-  + Funding sources and account information (e.g., chartfield spreads).
+  + Funding sources and account information (e.g., chart field spreads).
   + Recruit collaborators.
   + Recruit lab members to do the work.
   + Career development plans for each lab member, including you.
@@ -110,8 +110,14 @@ The subsections of these four sections are shown below.
   + Data sharing.
   + The NIH PEDP.
 
+## Plan for timely completion of this project
 
-### Daily entries
+  - a checklist for the completion of the manuscript
+  - a timeline with milestones
+  - a set of benchmarks
+
+
+## Daily entries
 
 - Daily Protocol
 - Daily Log
@@ -217,7 +223,8 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 | Version 0.5.1      | Added subsubsection for GitHub repos                      | 2024 June 12    |
 | Version 0.5.2      | Added subsubsection for Plans                     | 2024 June 12    |
 | Version 0.5.3      | Expanded lists to include nuts and bolts.                     | 2024 June 15    |
-| Version 0.5.3      | Added subsection on rewriting protocol.                     | 2024 June 18    |
+| Version 0.5.4      | Added subsection on rewriting protocol.                     | 2024 June 18    |
+| Version 0.5.5      | Added section on plan for project completion                    | 2024 June 19    |
 
 ## Sources of Funding
 
