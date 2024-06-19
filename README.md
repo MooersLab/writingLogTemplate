@@ -212,19 +212,19 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 
 ## Version History
 
-|Version           | Changes                                               | Date            |
-|:----------------:|:-----------------------------------------------------:|:---------------:|
-| Version 0.3      | First posted.                                         | 2024 January 22 |
-| Version 0.4.0    | Added subsections on data and code inventories.       | 2024 April 5    |
-| Version 0.4.1    | Added subsections on lists of videos and blogs.       | 2024 April 7    |
-| Version 0.4.2    | Added version with hidden comments to spare the trouble of deleting them. | 2024 May 17    |
-| Version 0.4.2    | Edited the README.md for improving readabiity.        | 2024 May 30    |
-| Version 0.5.0      | Added subsubsection for mindmap.                      | 2024 June 11    |
-| Version 0.5.1      | Added subsubsection for GitHub repos                      | 2024 June 12    |
-| Version 0.5.2      | Added subsubsection for Plans                     | 2024 June 12    |
-| Version 0.5.3      | Expanded lists to include nuts and bolts.                     | 2024 June 15    |
-| Version 0.5.4      | Added subsection on rewriting protocol.                     | 2024 June 18    |
-| Version 0.5.5      | Added section on plan for project completion                    | 2024 June 19    |
+|Version           | Changes                                                                   | Date            |
+|:----------------:|:-------------------------------------------------------------------------:|:---------------:|
+| Version 0.3      | First posted.                                                             | 2024 January 22 |
+| Version 0.4.0    | Added subsections on data and code inventories.                           | 2024 April 5    |
+| Version 0.4.1    | Added subsections on lists of videos and blogs.                           | 2024 April 7    |
+| Version 0.4.2    | Added version with hidden comments to spare the trouble of deleting them. | 2024 May 17     |
+| Version 0.4.2    | Edited the README.md for improving readabiity.                            | 2024 May 30     |
+| Version 0.5.0    | Added subsubsection for mindmap.                                          | 2024 June 11    |
+| Version 0.5.1    | Added subsubsection for GitHub repos.                                     | 2024 June 12    |
+| Version 0.5.2    | Added subsubsection for Plans.                                            | 2024 June 12    |
+| Version 0.5.3    | Expanded lists to include nuts and bolts.                                 | 2024 June 15    |
+| Version 0.5.4    | Added subsection on rewriting protocol.                                   | 2024 June 18    |
+| Version 0.5.5    | Added section on planning for project completion.                         | 2024 June 19    |
 
 ## Sources of Funding
 
