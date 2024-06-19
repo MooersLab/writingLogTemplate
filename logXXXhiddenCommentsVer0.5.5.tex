@@ -556,7 +556,26 @@ Abbreviations are also listed at the end of the manuscript.
 % You might track the time elapsed from project initiation to manuscript submission and compare that to prior performance.
 % However, this seems silly in scientific writing where the emphasis is on quality rather than quantity.
 
-
+% Add this package to the Preamble \usepackage{booktabs}
+\begin{table}[htp] % (fold)
+\caption{Timeline and milestones.}
+\index{timeline}
+\index{milestones}
+\label{tab:timeline}
+\begin{center}
+\begin{tabular}{lcc}
+% \begin{tabular}{l p{12cm}} % use p when you have to control the column width
+\toprule
+Milestone  & Target date & Achievement date\\
+\midrule
+Milestone 1                      & date  & date \\
+Milestone 2                      & date  & date \\
+Milestone 3                      & date  & date  \\ 
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+% table label (end)
 
 
 \subsection{Assessments of current state}
