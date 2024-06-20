@@ -3,10 +3,12 @@
 
 # Writing log for Research Papers in LaTeX
 
+
+
 This writing log is for research papers.
-The contents of our writing log for a grand application, book, platform talk, lecture, and seminar would be similar in nature but differ slightly in content.
+The contents of our writing log for a grant application, book, platform talk, lecture, and seminar would be similar in nature but differ slightly in content.
 We have not developed writing logs for these particular kinds of writing projects yet.
-We plan to do that someday when time permits.
+We plan to do when time permits.
 In the meantime, you can use this writing log as a template to develop writing logs for these other kinds of writing projects.
 
 When using LaTeX, use this writing log in parallel to the main writing project document to track your progress and record your plans.
@@ -28,13 +30,20 @@ This helps distinguish the log file from the `main*.tex` file that contains the 
 ## Features
 
 - Protocol for planning a manuscript.
+
 - A table of contents that is automatically generated and hyperlinked.
 - An automatically generated index that is hyperlinked.
 - Support for generating a references cited section from a Bibtex library.
-- Section for lists required for most manuscripts like keywords.
+- Section for lists required for most manuscripts like keywords, alternate titles, and potential reviewers.
 - Includes inventories of the private and public data locations.
+- A checklist to monitor manuscript completion.
+- A timeline with milestones. A plan without deadlines is just a wish list.
+- A checklist to monitor manuscript completion.
+- A pre-writing protocol to warm up for the day's generative writing.
 - A writing log section for recording notes on each day's accomplishments.
-- A timeline with benchmarks. A plan without deadlines is just a wish list.
+- A section for the next action item to ease starting the next day.
+- A section for to-dos.
+- A section for future project ideas, related tangents, and rabbit holes.
 - Plot of wordcount by writing session to track your progress.
 
 ## Instructions
