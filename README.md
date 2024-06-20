@@ -1,26 +1,67 @@
 ![Version](https://img.shields.io/static/v1?label=writingLogTemplate&message=0.5.5&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-# Writing log for Research Papers in LaTeX
+# An Advanced Writing Tool for Metacognition about Research Papers
 
+This writing log contains a diary about a writing project, but it also contains the metadata (plans, decisions, correspondence, and progress made) about the writing project that is often stored in comments or at the bottom of manuscript documents.
+These metadata are vulnerable to being accidentally deleted and clutter the main manuscript document.
+These metadata are actually very valuable and deserve to be stored properly.
+We think that storing them with the diary about the progress being made on the writing project enhances the use of the diary for metacognition about the writing project.
 
+This document is a tool for narrowing your focus and sustaining momentum on one specific writing project.
+We know others who have suggested keeping a writing diary, but these diaries are not project-specific.
+We think it is essential to keep the document specific to one project to narrow one's focus.
+
+Busy academics often have to work on several writing projects in a given week because they do not have the luxury of working on one writing project at a time.
+The one project-at-a-time approach has a lower cognition load, but it also gives the subconscious less time to develop ideas in the background of one's mind. 
+Working on several projects in parallel leads to juggling dozens to hundreds of thoughts about several writing projects.
+Keeping all these thoughts across multiple projects in one document leads to a tangled mess that is very laborious and time-consuming to parse.
+This is why we use one document per writing project; this document is a key part of how we make progress on 2-5 writing projects in a given week.
+
+The writing diaries of others also have little to no support for metadata and metacognition about the writing project.
+We think it is very useful to have an external document for storing metadata about a writing project and for thinking about that metadata.
+We have found that the more time we spend on the metacognition about the writing project outside of the manuscript, the more effective our time is when working inside that manuscript because our efforts are more focused and directed.
+We have been struck by the diversity and extent of metacognitive activities that are associated with a specific writing project.
+The writing log is a place for documenting these vital activities
+
+This enhanced writing log is also a tool that eases re-engagement in an interrupted writing project.
+It is like a master thinking document or a second brain for a writing project.
+It is a safe storage site for your thoughts about a writing project that could otherwise clutter your mind and get in the way of your next generative writing session for a particular project.
 
 This writing log is for research papers.
 The contents of our writing log for a grant application, book, platform talk, lecture, and seminar would be similar in nature but differ slightly in content.
 We have not developed writing logs for these particular kinds of writing projects yet.
-We plan to do when time permits.
+We plan to do it when time permits.
 In the meantime, you can use this writing log as a template to develop writing logs for these other kinds of writing projects.
+
+We do most of our writing in LaTeX.
+The most advanced version of this writing log document is being developed in LaTeX.
+At the moment, it is undergoing a spurt in development as we add some new features.
+We will update the other formats listed below when it reaches the next stable state.
+If you are anxious to use the latest version in a different format, you can convert it to other formats by using  pandoc.
+You may have to do some subsequent editing because pandoc is not perfect.
+
+
+- [Writing log template in Org-mode](https://github.com/MooersLab/writingLogTemplateInOrg)
+- [Writing log template in reStructuredText](https://github.com/MooersLab/writing-log-rst) reStructuredText is used by programmers for documentation.
+- [Writing log template in Markdown](https://github.com/MooersLab/writing-log-md) Markdown variant. Read and rendered to PDF by most good text editors.
+- [Writing log template in ODT](https://github.com/MooersLab/writing-log-odt) ODT can be read by Open Office, LibreOffice, and MS Word.
+- [Writing log template in DOCX for MS Word](https://github.com/MooersLab/writing-log-docx) MS Word variant. This is probably the least suitable format for this task.
+- Planned: a version for typist.
+
+The LaTeX version will have most features.
+This version is easy to edit in a free account on [Overleaf](https://www.overleaf.com/).
+You can view it in the rich text format if you cannot tolerate LaTeX.
+Overleaf is accessible to anyone with access to the  World Wide Web.
+As a result, this format best follows the FAIR principles because not everyone has access to MS Word.
+
 
 When using LaTeX, use this writing log in parallel to the main writing project document to track your progress and record your plans.
 This template can be used in any text editor that supports LaTeX, including online servers like Overleaf.
 Other compatible text editors include Visual Studio Code, Vim, NeoVim, Emacs, TextMate, Sublime Text, etc.
 Visit [here](https://mooerslab.github.io/pymolsnips/#editors) for an informal review and install instructions for 18 leading text editors.
 
-The writing log is a document that is external to the manuscript.
-It stores the plans, decisions, correspondence, and progress made on a specific manuscript.
-It is a tool for narrowing your focus and sustaining momentum on the writing project.
-It is also a tool that eases re-engagement in an interrupted writing project.
-It is like a master thinking document or a second brain for a writing project.
+
 
 If you start the name of the writing log with the word `log,` this will make navigating to the current file easier when using a terminal supported by tab completion.
 I use `log` followed by the project number and name in the Camel or Pascal case.
@@ -234,6 +275,7 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 | Version 0.5.3    | Expanded lists to include nuts and bolts.                                 | 2024 June 15    |
 | Version 0.5.4    | Added subsection on rewriting protocol.                                   | 2024 June 18    |
 | Version 0.5.5    | Added section on planning for project completion.                         | 2024 June 19    |
+| Version 0.5.5    | Added six paragraphs to REAME.md explaining the advanced features.          | 2024 June 20    |
 
 ## Sources of Funding
 
