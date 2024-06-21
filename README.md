@@ -10,18 +10,18 @@ We think that storing them with the diary about the progress being made on the w
 
 This document is a tool for narrowing your focus and sustaining momentum on one specific writing project.
 We know others who have suggested keeping a writing diary, but these diaries are not project-specific.
-We think it is essential to keep the document specific to one project to narrow one's focus.
+We think keeping the document specific to one project is essential to narrow one's focus.
 
 Busy academics often have to work on several writing projects in a given week because they do not have the luxury of working on one writing project at a time.
 The one project-at-a-time approach has a lower cognition load, but it also gives the subconscious less time to develop ideas in the background of one's mind. 
 Working on several projects in parallel leads to juggling dozens to hundreds of thoughts about several writing projects.
 Keeping all these thoughts across multiple projects in one document leads to a tangled mess that is very laborious and time-consuming to parse.
-This is why we use one document per writing project; this document is a key part of how we make progress on 2-5 writing projects in a given week.
+This is why we use one document per writing project; this document is a key part of how we progress on 2-5 writing projects in a given week.
 
 The writing diaries of others also have little to no support for metadata and metacognition about the writing project.
-We think it is very useful to have an external document for storing metadata about a writing project and for thinking about that metadata.
+We think having an external document for storing metadata about a writing project and thinking about that metadata is very useful.
 We have found that the more time we spend on the metacognition about the writing project outside of the manuscript, the more effective our time is when working inside that manuscript because our efforts are more focused and directed.
-We have been struck by the diversity and extent of metacognitive activities that are associated with a specific writing project.
+We have been struck by the diversity and extent of metacognitive activities associated with a specific writing project.
 The writing log is a place for documenting these vital activities
 
 This enhanced writing log is also a tool that eases re-engagement in an interrupted writing project.
@@ -32,11 +32,11 @@ This writing log is for research papers.
 The contents of our writing log for a grant application, book, platform talk, lecture, and seminar would be similar in nature but differ slightly in content.
 We have not developed writing logs for these particular kinds of writing projects yet.
 We plan to do it when time permits.
-In the meantime, you can use this writing log as a template to develop writing logs for these other kinds of writing projects.
+In the meantime, you can use this writing log as a template to develop writing logs for these other types of writing projects.
 
 We do most of our writing in LaTeX.
 The most advanced version of this writing log document is being developed in LaTeX.
-At the moment, it is undergoing a spurt in development as we add some new features.
+At the moment, it is undergoing a spurt in development as we add new features.
 We will update the other formats listed below when it reaches the next stable state.
 If you are anxious to use the latest version in a different format, you can convert it to other formats by using  pandoc.
 You may have to do some subsequent editing because pandoc is not perfect.
@@ -49,19 +49,16 @@ You may have to do some subsequent editing because pandoc is not perfect.
 - [Writing log template in DOCX for MS Word](https://github.com/MooersLab/writing-log-docx) MS Word variant. This is probably the least suitable format for this task.
 - Planned: a version for typist.
 
-The LaTeX version will have most features.
-This version is easy to edit in a free account on [Overleaf](https://www.overleaf.com/).
+The LaTeX version will have the most features.
+The tex file is easy to edit in a free account on [Overleaf](https://www.overleaf.com/).
 You can view it in the rich text format if you cannot tolerate LaTeX.
-Overleaf is accessible to anyone with access to the  World Wide Web.
+Overleaf is accessible to anyone with access to the World Wide Web.
 As a result, this format best follows the FAIR principles because not everyone has access to MS Word.
-
 
 When using LaTeX, use this writing log in parallel to the main writing project document to track your progress and record your plans.
 This template can be used in any text editor that supports LaTeX, including online servers like Overleaf.
 Other compatible text editors include Visual Studio Code, Vim, NeoVim, Emacs, TextMate, Sublime Text, etc.
 Visit [here](https://mooerslab.github.io/pymolsnips/#editors) for an informal review and install instructions for 18 leading text editors.
-
-
 
 If you start the name of the writing log with the word `log,` this will make navigating to the current file easier when using a terminal supported by tab completion.
 I use `log` followed by the project number and name in the Camel or Pascal case.
