@@ -94,7 +94,7 @@ Instructions for using the writing log are found in the annotations in the templ
 You can use [logXXXXhiddenCommentsVer0.5.5.tex](https://github.com/MooersLab/writingLogTemplate/blob/main/logXXXhiddenCommentsVer0.5.5.tex), which hides the comments in commented-out lines to spare you the trouble of deleting them while retaining them for future reference.
 Replace XXXX with the project number or number-name.
 
-Version 0.5 of the writing log was divided into four sections: 
+Version 0.5 of the writing log was divided into five sections: 
 
 - Project initiation
 - Project management and assessment
@@ -102,7 +102,7 @@ Version 0.5 of the writing log was divided into four sections:
 - Future additions and tangents
 - Guidelines, checklists, protocols, and helpful tips
 
-The subsections of these four sections are shown below.
+The subsections of these five sections are shown below.
 
 ## Project initiation
 
@@ -175,22 +175,22 @@ The subsections of these four sections are shown below.
 
 ## Daily entries
 
-- Daily Protocol
-- Daily Log
-- Next action
-- To be done
-- Timeline or Benchmarks
-- Word Count
-- Update writing progress notebook
-- Update personal knowledge base
+- Daily Protocol.
+- Daily Log.
+- Next action.
+- To be done.
+- Timeline or Benchmarks.
+- Word Count.
+- Update writing progress notebook.
+- Update personal knowledge base.
 
 
 
 ### Future additions and tangents
 
-- New branches on the above mind map for this project and research program
-- Mind map for the research program (the big picture that includes related manuscripts, talks, posters, funded grants, grant applications)
-- Ideas to consider adding to the manuscript
+- New branches on the above mind map for this project and research program.
+- Mind map for the research program (the big picture that includes related manuscripts, talks, posters, funded grants, grant applications). This is a super metacognition tool.
+- Ideas to consider adding to the manuscript.
   + Introduction
   + Results
   + Discussion
@@ -215,6 +215,45 @@ The subsections of these four sections are shown below.
 - Guidelines for using a personal knowledge base
 - Guideline for writing a cover letter.
 - Guideline for responding to reviewers.
+
+
+## Sorting of lists
+
+Some of the above lists must be sorted and duplicates must be removed when augmenting a list with new items.
+Most text editors will support the sorting of lines.
+Some text editors support the removal of duplicates in a list.
+Most text editors ignore blank lines.
+
+The function below for Emacs combines the above 3 functionalities.
+
+```elisp
+(defun clean-sort-list-in-region (beg end)
+  "Clean and sort the lines in the selected region.
+   Removes duplicate lines, blank lines, and sorts alphabetically."
+  (interactive "r")
+  (let ((lines (split-string (buffer-substring-no-properties beg end) "\n" t))
+        (cleaned-lines nil))
+    ;; Remove duplicates and blank lines
+    (dolist (line lines)
+      (when (and (not (string-blank-p line))
+                 (not (member line cleaned-lines)))
+        (push line cleaned-lines)))
+    ;; Sort alphabetically
+    (setq cleaned-lines (sort cleaned-lines #'string<))
+    ;; Replace the region with the cleaned and sorted lines
+    (delete-region beg end)
+    (insert (mapconcat #'identity cleaned-lines "\n"))))
+(global-set-key (kbd "C-c s") 'clean-sort-list-in-region)
+```
+
+This function removes the blank lines in a selected region, and it removes the duplicated lines. 
+Then this function sorts the remaining lines in alphabetical order.
+To select the list by creating a region, move the cursor to the first line, enter `Control-space` (or `C-space` in Emacs shorthand), and use the down arrow to select the list.
+Enter `Control-c s` (i.e., C-c s) to apply the function to the list.
+This function is very useful for updating keywords and other lists in the writing log.
+
+
+
 
 ## Usage on Overleaf
 
