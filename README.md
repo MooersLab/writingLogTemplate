@@ -3,11 +3,13 @@
 
 # An Advanced Writing Tool for Metacognition about Research Papers
 
+## Introduction
 This writing log contains a diary about a writing project, but it also contains the metadata (plans, decisions, correspondence, and progress made) about the writing project that is often stored in comments or at the bottom of manuscript documents.
 These metadata are vulnerable to being accidentally deleted and clutter the main manuscript document.
 These metadata are actually very valuable and deserve to be stored properly.
 We think that storing them with the diary about the progress being made on the writing project enhances the use of the diary for metacognition about the writing project.
 
+## Background
 This document is a tool for narrowing your focus and sustaining momentum on one specific writing project.
 We know others who have suggested keeping a writing diary, but these diaries are not project-specific.
 We think keeping the document specific to one project is essential to narrow one's focus.
@@ -19,10 +21,11 @@ Keeping all these thoughts across multiple projects in one document leads to a t
 This is why we use one document per writing project; this document is a key part of how we progress on 2-5 writing projects in a given week.
 
 The writing diaries of others also have little to no support for metadata and metacognition about the writing project.
-We think having an external document for storing metadata about a writing project and thinking about that metadata is very useful.
-We have found that the more time we spend on the metacognition about the writing project outside of the manuscript, the more effective our time is when working inside that manuscript because our efforts are more focused and directed.
+We think an external document for storing metadata about a writing project and thinking about that metadata enhances the focus on the paper's content.
+We have found that the more time we spend on metacognition about the writing project outside of the manuscript, the more effective our time is when working inside that manuscript because our efforts are more focused and directed.
 We have been struck by the diversity and extent of metacognitive activities associated with a specific writing project.
-The writing log is a place for documenting these vital activities
+The writing log is a place for documenting these vital activities.
+This record is a valuable resource for documenting decisions made about the current paper and for stimulating ideas for new manuscripts.
 
 This enhanced writing log is also a tool that eases re-engagement in an interrupted writing project.
 It is like a master thinking document or a second brain for a writing project.
@@ -32,13 +35,13 @@ This writing log is for research papers.
 The contents of our writing log for a grant application, book, platform talk, lecture, and seminar would be similar in nature but differ slightly in content.
 We have not developed writing logs for these particular kinds of writing projects yet.
 We plan to do it when time permits.
-In the meantime, you can use this writing log as a template to develop writing logs for these other types of writing projects.
+In the meantime, you can use this writing log as a template to develop writing logs for these other writing projects.
 
 We do most of our writing in LaTeX.
 The most advanced version of this writing log document is being developed in LaTeX.
 At the moment, it is undergoing a spurt in development as we add new features.
 We will update the other formats listed below when it reaches the next stable state.
-If you are anxious to use the latest version in a different format, you can convert it to other formats by using  pandoc.
+If you are anxious to use the latest version in a different format, you can convert it to other formats using  pandoc.
 You may have to do some subsequent editing because pandoc is not perfect.
 
 
