@@ -50,7 +50,7 @@ You may have to do some subsequent editing because pandoc is not perfect.
 - Planned: a version for typist.
 
 The LaTeX version will have the most features.
-The tex file is easy to edit in a free account on [Overleaf](https://www.overleaf.com/).
+The `logXXXhiddenCommentsVer0.5.5.tex` file is easy to edit in a free account on [Overleaf](https://www.overleaf.com/).
 You can view it in the rich text format if you cannot tolerate LaTeX.
 Overleaf is accessible to anyone with access to the World Wide Web.
 As a result, this format best follows the FAIR principles because not everyone has access to MS Word.
@@ -68,7 +68,6 @@ This helps distinguish the log file from the `main*.tex` file that contains the 
 ## Features
 
 - Protocol for planning a manuscript.
-
 - A table of contents that is automatically generated and hyperlinked.
 - An automatically generated index that is hyperlinked.
 - Support for generating a references cited section from a Bibtex library.
@@ -76,25 +75,28 @@ This helps distinguish the log file from the `main*.tex` file that contains the 
 - Includes inventories of the private and public data locations.
 - A checklist to monitor manuscript completion.
 - A timeline with milestones. A plan without deadlines is just a wish list.
-- A checklist to monitor manuscript completion.
+- A list of questions to ask during assessments of the project's current state.
+- Generation of a list of barriers to project completion.
 - A pre-writing protocol to warm up for the day's generative writing.
 - A writing log section for recording notes on each day's accomplishments.
 - A section for the next action item to ease starting the next day.
 - A section for to-dos.
 - A section for future project ideas, related tangents, and rabbit holes.
 - Plot of wordcount by writing session to track your progress.
+- A section for protocols, guidelines, and checklists.
 
 ## Instructions
 
 Instructions for using the writing log are found in the annotations in the template.
-You can use [logXXXXhiddenCommentsVer0.5.1.tex](https://github.com/MooersLab/writingLogTemplate/blob/main/logXXXhiddenCommentsVer0.5.1.tex), which hides the comments to spare you the trouble of deleting them while retaining them for future reference.
-Replace XXX with the project number.
+You can use [logXXXXhiddenCommentsVer0.5.5.tex](https://github.com/MooersLab/writingLogTemplate/blob/main/logXXXhiddenCommentsVer0.5.5.tex), which hides the comments in commented-out lines to spare you the trouble of deleting them while retaining them for future reference.
+Replace XXXX with the project number or number-name.
 
-Version 0.3 of the writing log was divided into four sections: 
+Version 0.5 of the writing log was divided into four sections: 
 
-- project initiation
-- daily entries
-- future additions and tangents
+- Project initiation
+- Project management and assessment
+- Daily entries
+- Future additions and tangents
 - Guidelines, checklists, protocols, and helpful tips
 
 The subsections of these four sections are shown below.
@@ -159,9 +161,13 @@ The subsections of these four sections are shown below.
 
 ## Plan for timely completion of this project
 
-  - a checklist for the completion of the manuscript
-  - a timeline with milestones
-  - a set of benchmarks
+  - A checklist for the completion of the manuscript.
+  - A timeline with milestones.
+  - Snapshots of the project's current state.
+  - Current list of barriers to project completion.
+
+
+## Protocol for pre-writing exercises
 
 
 ## Daily entries
@@ -204,7 +210,8 @@ The subsections of these four sections are shown below.
 - Guidelines for benchmarks
 - Guidelines for using the Writing Progress Notebook
 - Guidelines for using a personal knowledge base
-
+- Guideline for writing a cover letter.
+- Guideline for responding to reviewers.
 
 ## Usage on Overleaf
 
@@ -272,7 +279,7 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 | Version 0.5.3    | Expanded lists to include nuts and bolts.                                 | 2024 June 15    |
 | Version 0.5.4    | Added subsection on rewriting protocol.                                   | 2024 June 18    |
 | Version 0.5.5    | Added section on planning for project completion.                         | 2024 June 19    |
-| Version 0.5.5    | Added six paragraphs to REAME.md explaining the advanced features.          | 2024 June 20    |
+| Version 0.5.5    | Added six paragraphs to REAME.md to explain the advanced features.        | 2024 June 20    |
 
 ## Sources of Funding
 
