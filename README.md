@@ -45,7 +45,7 @@ If you are anxious to use the latest version in a different format, you can conv
 You may have to do some subsequent editing because pandoc is not perfect.
 
 
-- [Writing log template in Org-mode](https://github.com/MooersLab/writingLogTemplateInOrg)
+- [Writing log template in Org-mode](https://github.com/MooersLab/writingLogTemplateInOrg) a superset of markdown for Emacs. Can be edited in VS Code.
 - [Writing log template in reStructuredText](https://github.com/MooersLab/writing-log-rst) reStructuredText is used by programmers for documentation.
 - [Writing log template in Markdown](https://github.com/MooersLab/writing-log-md) Markdown variant. Read and rendered to PDF by most good text editors.
 - [Writing log template in ODT](https://github.com/MooersLab/writing-log-odt) ODT can be read by Open Office, LibreOffice, and MS Word.
