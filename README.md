@@ -224,7 +224,8 @@ Most text editors will support the sorting of lines.
 Some text editors support the removal of duplicates in a list.
 Most text editors ignore blank lines.
 
-The function below for Emacs combines the above 3 functionalities.
+The function below for Emacs combines the above 3 functionalities into the key board short cut `Control-c s`.
+The keys linked by a dash are pressed down in unison.
 
 ```elisp
 (defun clean-sort-list-in-region (beg end)
@@ -250,9 +251,7 @@ This function removes the blank lines in a selected region, and it removes the d
 Then this function sorts the remaining lines in alphabetical order.
 To select the list by creating a region, move the cursor to the first line, enter `Control-space` (or `C-space` in Emacs shorthand), and use the down arrow to select the list.
 Enter `Control-c s` (i.e., C-c s) to apply the function to the list.
-This function is very useful for updating keywords and other lists in the writing log.
-
-
+This function is useful for updating keywords and other lists in the writing log.
 
 
 ## Usage on Overleaf
