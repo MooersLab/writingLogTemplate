@@ -12,7 +12,7 @@ We think that storing them with the diary about the progress being made on the w
 ## Background
 This document is a tool for narrowing your focus and sustaining momentum on one specific writing project.
 We know others who have suggested keeping a writing diary, but these diaries are not project-specific.
-We think keeping the document specific to one project is essential to narrow one's focus.
+Keeping the document specific to one project is essential to narrow one's focus.
 
 Busy academics often have to work on several writing projects in a given week because they do not have the luxury of working on one writing project at a time.
 The one project-at-a-time approach has a lower cognition load, but it also gives the subconscious less time to develop ideas in the background of one's mind. 
@@ -34,14 +34,14 @@ It is a safe storage site for your thoughts about a writing project that could o
 This writing log is for research papers.
 The contents of our writing log for a grant application, book, platform talk, lecture, and seminar would be similar in nature but differ slightly in content.
 We have not developed writing logs for these particular kinds of writing projects yet.
-We plan to do it when time permits.
+We plan to do so when time permits.
 In the meantime, you can use this writing log as a template to develop writing logs for these other writing projects.
 
 We do most of our writing in LaTeX.
 The most advanced version of this writing log document is being developed in LaTeX.
 At the moment, it is undergoing a spurt in development as we add new features.
 We will update the other formats listed below when it reaches the next stable state.
-If you are anxious to use the latest version in a different format, you can convert it to other formats using  pandoc.
+If you are anxious to use the latest version in a different format, you can convert it to other formats using pandoc.
 You may have to do some subsequent editing because pandoc is not perfect.
 
 
@@ -53,7 +53,7 @@ You may have to do some subsequent editing because pandoc is not perfect.
 - Planned: a version for typist.
 
 The LaTeX version will have the most features.
-The `logXXXhiddenCommentsVer0.5.5.tex` file is easy to edit in a free account on [Overleaf](https://www.overleaf.com/).
+The `logXXXhiddenCommentsVer0.5.8.tex` file is easy to edit in a free account on [Overleaf](https://www.overleaf.com/).
 You can view it in the rich text format if you cannot tolerate LaTeX.
 Overleaf is accessible to anyone with access to the World Wide Web.
 As a result, this format best follows the FAIR principles because not everyone has access to MS Word.
@@ -66,6 +66,13 @@ Visit [here](https://mooerslab.github.io/pymolsnips/#editors) for an informal re
 If you start the name of the writing log with the word `log,` this will make navigating to the current file easier when using a terminal supported by tab completion.
 I use `log` followed by the project number and name in the Camel or Pascal case.
 This helps distinguish the log file from the `main*.tex` file that contains the manuscript.
+
+On Overleaf, we store the writing log with the manuscript in the same project.
+We have no trouble jumping between the manuscript and the writing log.
+We keep both under version control in the same project.
+However, we can see the case for storing the writing log separately in a local subdirectory and then editing it in a text editor while continuing to edit the main manuscript in Overleaf in the browser.
+In this approach, you may avoid commit conflicts by storing these two documents in different git repositories.
+
 
 
 ## Features
