@@ -321,6 +321,7 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 | Version 0.5.4    | Added subsection on rewriting protocol.                                   | 2024 June 18    |
 | Version 0.5.5    | Added section on planning for project completion.                         | 2024 June 19    |
 | Version 0.5.5    | Added six paragraphs to REAME.md to explain the advanced features.        | 2024 June 20    |
+| Version 0.5.6    | Added the writer's creed.                                                 | 2024 June 24    |
 
 ## Sources of Funding
 
