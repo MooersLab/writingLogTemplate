@@ -49,7 +49,7 @@ You may have to do some subsequent editing because pandoc is not perfect.
 - [Writing log template in reStructuredText](https://github.com/MooersLab/writing-log-rst) reStructuredText is used by programmers for documentation.
 - [Writing log template in Markdown](https://github.com/MooersLab/writing-log-md) Markdown variant. Read and rendered to PDF by most good text editors.
 - [Writing log template in ODT](https://github.com/MooersLab/writing-log-odt) ODT can be read by Open Office, LibreOffice, and MS Word.
-- [Writing log template in DOCX for MS Word](https://github.com/MooersLab/writing-log-docx) MS Word variant. This is probably the least suitable format for this task.
+- [Writing log template in DOCX for MS Word](https://github.com/MooersLab/writing-log-docx) MS Word variant. This is the least suitable format for this task.
 - Planned: a version for typist.
 
 The LaTeX version will have the most features.
@@ -71,7 +71,7 @@ On Overleaf, we store the writing log with the manuscript in the same project.
 We have no trouble jumping between the manuscript and the writing log.
 We keep both under version control in the same project.
 However, we can see the case for storing the writing log separately in a local subdirectory and then editing it in a text editor while continuing to edit the main manuscript in Overleaf in the browser.
-In this approach, you may avoid commit conflicts by storing these two documents in different git repositories.
+In this approach, you may avoid committing conflicts by storing these two documents in different git repositories.
 
 
 
@@ -98,7 +98,7 @@ In this approach, you may avoid commit conflicts by storing these two documents 
 ## Instructions
 
 Instructions for using the writing log are found in the annotations in the template.
-You can use [logXXXXhiddenCommentsVer0.5.5.tex](https://github.com/MooersLab/writingLogTemplate/blob/main/logXXXhiddenCommentsVer0.5.5.tex), which hides the comments in commented-out lines to spare you the trouble of deleting them while retaining them for future reference.
+You can use [logXXXXhiddenCommentsVer0.5.6.tex](https://github.com/MooersLab/writingLogTemplate/blob/main/logXXXhiddenCommentsVer0.5.5.tex), which hides the comments in commented-out lines to spare you the trouble of deleting them while retaining them for future reference.
 Replace XXXX with the project number or number-name.
 
 Version 0.5 of the writing log was divided into five sections: 
@@ -226,12 +226,12 @@ The subsections of these five sections are shown below.
 
 ## Sorting of lists
 
-Some of the above lists must be sorted and duplicates must be removed when augmenting a list with new items.
+Some of the above lists must be sorted, and duplicates must be removed when augmented with new items.
 Most text editors will support the sorting of lines.
 Some text editors support the removal of duplicates in a list.
 Most text editors ignore blank lines.
 
-The function below for Emacs combines the above 3 functionalities into the key board short cut `Control-c s`.
+The function below for Emacs combines the above 3 functionalities into the keyboard shortcut `Control-c s`.
 The keys linked by a dash are pressed down in unison.
 
 ```elisp
@@ -329,6 +329,7 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 | Version 0.5.5    | Added section on planning for project completion.                         | 2024 June 19    |
 | Version 0.5.5    | Added six paragraphs to REAME.md to explain the advanced features.        | 2024 June 20    |
 | Version 0.5.6    | Added the writer's creed.                                                 | 2024 June 24    |
+| Version 0.5.6    | Minor typos fixed in the README.md.                                       | 2024 June 25    |
 
 ## Sources of Funding
 
