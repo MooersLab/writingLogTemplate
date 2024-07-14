@@ -1,0 +1,1113 @@
+\documentclass[10pt,letterpaper]{article}
+% \usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage[letterpaper, total={7in, 9in}]{geometry}
+%Print page numbers in the upper right corner rather than the bottom center.
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+\pagestyle{myheadings}
+\usepackage{datetime2}
+\usepackage{minted}
+\usepackage{ulem}
+\usepackage{spreadtab}
+\makeindex
+%Print page numbers in the upper right corner rather than the bottom center.
+\pagestyle{myheadings}
+% Code for plotting table 
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{colortbl}
+
+\pgfplotstableset{% global config, for example in the preamble
+  every head row/.style={before row=\toprule,after row=\midrule},
+  every last row/.style={after row=\bottomrule},
+  fixed,precision=2,
+}
+
+% todolist env from https://tex.stackexchange.com/questions/247681/how-to-create-checkbox-todo-list
+% done with checkmark, wontfix with x, next with finger.
+% Use square brackets around the commands: e.g., [\next]
+\usepackage{enumitem,amssymb}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\usepackage{pifont}
+\newcommand{\nmark}{\ding{42}}% next
+\newcommand{\cmark}{\ding{51}}% checkmark
+\newcommand{\xmark}{\ding{55}}% x-mark
+\newcommand{\wmark}{\ding{116}}% wait mark, inverted triangle representing yield sign
+
+\newcommand{\done}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}%
+  \hspace{-2.5pt}}
+\newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
+\newcommand{\waiting}{\rlap{\raisebox{0.18ex}{\hspace{0.17ex}\scriptsize \wmark}}$\square$}
+% \newcommand{\next}{\nmark}%
+\bibliographystyle{cell}
+
+
+\newcommand{\bi}{\begin*{itemize}}
+\newcommand{\ei}{\end{itemize}}
+
+\newcommand{\be}{\begin*{enumerate}}
+\newcommand{\ee}{\end{enumerate}}
+
+
+
+\title{Writing Log for Project \#\#\#\#, Ver0.5}
+\author{Blaine H. M. Mooers \\University of Oklahoma Health Sciences}
+
+\pgfplotsset{compat=1.18} 
+
+\makeindex
+
+\begin*{document}
+\maketitle
+\tableofcontents
+
+
+\section*{Introduction}
+
+
+% This template contains a table of contents, a numbered outline, and an index that supports navigating the document when it has been rendered into a PDF. 
+% The label and ref macros are part of LaTeX's hyperlinking system.
+% Items in the table of contents and in the index are hyperlinked to sites in the body of the writing log.
+% When the tex file is viewed on Overleaf, the file outline will appear in the left column.
+% You can navigate to different document sections by clicking on the file outline in this left column.
+
+% \paragraph*{Version 0.3} is a massive restructuring into four sections for improved clarity and simplicity.
+% The comments in the sections below can be commented out with a good text editor or by inserting a percent sign at the start of each line.
+% Some of the explanatory text may have value in the future.
+% You can always comment out the lines that contain the explanatory text by inserting a percent sign at the start of each line.
+% In Overleaf, you would select the text block and then enter command-/ to comment out the block.
+
+
+
+\section*{Project initiation}
+\subsection*{Rationale for this article}
+\label{sub:why}
+
+% What is the rationale for writing this paper?
+% To help advance the field?
+% To help win or renew a grant funding?
+% To establish credibility in a new field for my lab?
+
+
+\subsection*{Audience for the paper}
+\label{sub:audience}
+% Describe in a paragraph of prose the target audience of this paper.
+
+
+
+\subsection*{Potential target journals for submission}
+\label{sub:target-journals}
+% The journal titles are enumerated in descending order of desirability.
+% You have a plan B journal identified at the time of submission so that you can respond swiftly if the plan A journal rejects the paper.
+
+\be
+  \item 
+  \item
+  \item
+  \item
+\ee
+
+
+\subsection*{Related projects}
+\label{sub:related-projects}
+
+% By listing closely and somewhat distantly related projects to the project at hand, it is possible to identify some synergies that might otherwise be overlooked.
+% For example, when working in a new area, it is often useful to capitalize on the investment made in reading in the new field by capturing those insights in the form of a review article or book chapter.
+% If you use Overleaf, you can include a hyperlink to the project's webpage.
+
+\begin*{itemize}
+  \item
+  \item 
+  \item 
+  \item 
+\end{itemize}
+
+\subsection*{Draft Introduction}
+\label{subsec:Introduction}
+
+% In this section and in the next two sections, we assemble the key components of the paper.
+% You may wonder why we did not do this in the manuscript document.
+% We find it easier to keep this prose close to the other lists in the sections that follow these subsections.
+% In other words, we are using the writing log as an incubator for the initial drafts of these components of the paper.
+
+% We craft a two-paragraph introduction following the method of Lindsay (Lindsay 2020 Scientific Writing Thinking In Words 2nd Ed).
+% We draft in the writing log until we are satisfied that our vision of the project is clear enough to proceed.
+% At this point, we transfer the draft introduction to the main manuscript.
+
+\subsection*{Potential results}
+\label{subsec:Results.}
+
+% This section contains a list of the potential key results that are vital to addressing the central hypothesis.
+% Usually, there are 4 to 6 key results. 
+% Yes, we can think about the nature of the results even before we have performed the experiments.
+
+% We are not necessarily thinking about the expected results, but we can guess their nature, such as whether they will be in the form of a table, a graph, or an image.
+% We then sort the results by how much weight they bear upon testing the central hypothesis.
+% This sorting will be the order in which the results are presented, in contrast to the general tendency to deliver the results in the order in which we obtain the results.
+% At this point, we might even draft an initial paragraph for the results section that outlines the order of the results.
+% This initial paragraph helps to set the reader's expectations about the following results. 
+% After this initial paragraph is assembled and the planned results are listed, we will transfer this text to the main manuscript.
+
+\begin*{enumerate}
+  \item 
+  \item
+  \item
+  \item
+  \item
+  \item
+\end{enumerate}
+
+
+\subsection*{Potential discussion points}
+\label{subsec:futureDiscussion}
+
+% After some years of experience in a particular field, one has a sense of the critical discussion points about how the proposed results will relate to the results from the work of others.
+% The content of this discussion is supposed to be about the relationship of our results to those reported by others.
+% Sometimes, we expand these discussion points into initial paragraphs.
+% After we think this section is well-developed, we will transfer it to the main manuscript.
+
+\subsection*{Prior discussion points}
+\label{subsec:priorDiscussion}
+% The discussion section should contain new points of discussion.
+% If you are writing a series of papers about a topic, it is all too easy to recycle old discussion points.
+% Before making the transfer mentioned above, we will check the proposed discussion points against those we have published to avoid repeating ourselves and remind ourselves to review our new results against our prior discussion points.
+% You can check this list against the discussion section of your current manuscript to ensure that you are raising new points or updating prior points while appropriately citing yourself. 
+% The new results may require that we update our published discussion points.
+
+
+\begin*{enumerate}
+  \item 
+  \item
+  \item
+\end{enumerate}
+
+
+
+\subsection*{Potential titles}
+\label{sub:titles}
+
+% Titles of 3-7 words long are easier for people to remember.
+% We generally iterate through enough titles to find one that is catchy.
+% Sometimes, this requires generating a list of more than 100 titles.
+% This work takes time and should not be delayed until the day of manuscript submission.
+
+
+\begin*{enumerate}
+  \item 
+  \item 
+  \item
+\end{enumerate}
+
+
+
+\subsection*{Potential Keywords}
+\label{sub:keywords}
+
+% Below is a list of potential keywords.
+% Abstracting services use the title and abstract to extract terms for searching.
+% As a result, select keywords that are not in these two parts of the paper.
+% Usually, there is a limit on the number of keywords, so we choose the keywords carefully.
+% We make a long list of keywords and select the best ones.              
+\be
+    \item open science
+    \item 
+    \item 
+\ee
+
+\subsection*{Potential Abstract}
+
+% After filling in the above subsections, we are in a solid position to draft the abstract for the paper.
+% This is just a draft and will be updated as the results emerge.
+% However, going through this exercise is another way of visualizing the paper's contents and helps to strengthen that vision.
+% Such clarity is essential to maintain momentum.
+
+
+
+\subsection*{Abbreviations}
+\label{sub:abbrev}
+
+% A common mistake is to delay assembling the list of acronyms and abbreviations.
+% An incomplete list tells the reviewer that the authors assembled the manuscript in a hurry.
+
+
+\begin*{quote}
+   Acronyms/Abbreviations/Initialisms should be defined the first time they appear in each of three sections: the abstract, the main text, and the first figure or table. When defined for the first time, the acronym/abbreviation/initialism should be added in parentheses after the written-out form.
+\end{quote}
+
+Abbreviations are also listed at the end of the manuscript.
+
+\begin*{description}
+    \item[abbrev] its expansion 
+    \item[abbrev] its expansion 
+    \item[abbrev] its expansion 
+    \item[abbrev] its expansion 
+\end{description}
+
+
+
+\subsection*{Potential collaborators: name; institution;e-mail}
+\label{sub:collaborators}
+
+\bi
+\item 
+\item
+\ei
+
+
+
+
+\subsection*{Potential competitors: name; institution;e-mail}
+\label{sub:competitors}
+
+\bi
+\item
+\item 
+\ei
+
+
+
+\subsection*{Potential reviewers: name; institution;e-mail}
+\label{sub:reviewers}
+
+\be
+    \item 
+    \item
+\ee
+
+
+\subsection*{Draft cover letter}
+\label{sub:coverletter}
+
+% It is never too early to start writing the cover letter for a project.
+% This letter is another form of summary that is part of the actualization of the project.
+% If we have enough energy and time after completing the initialization of the writing project, we may draft the cover letter.
+% The advantage of doing so is to capture one's excitement about the project.
+
+% \subsection*{Inventory of data}
+
+% A common problem when working on a paper intermittently is remembering where you stored the data and the code needed for its analysis.
+% It can be difficult to find these items because they may be stored in folders with names that are not so obvious.
+% For example, a database or set of code may be utilized in two projects, but copies may not be made for both projects.
+% Ideally, these items are stored in the project folder.
+
+% However, these items may have emerged or evolved long before the paper was conceived. 
+% Moving these items to the current project folder may be awkward.
+% One does not want to make duplicates needlessly or make multiple versions to sprout up.
+% You can make symbolic links to the data and code locations from the project folder. 
+% However, it would probably be prudent to store information about the location of these files in the writing log as a backup should the symbolic links become accidentally deleted or broken.
+
+% You can store the locations of the data and code in the writing log so that you can quickly find these items.
+% They can be stored in the form of a two-column table.
+
+\subsection*{Data}
+
+\begin*{table}
+    \centering
+    \begin*{tabular}{cc}
+        Description & Location\\
+        \toprule
+         & \\
+         & \\
+         & \\
+         & \\
+         & \\
+         & \\
+         & \\
+         \bottomrule
+    \end{tabular}
+    \caption*{Project's data storage locations.}
+    \label{tab:my_label}
+\end{table}
+
+\subsection*{Inventory of data on hand}
+
+\begin*{table}
+    \centering
+    \begin*{tabular}{cc}
+        Description & Location\\
+        \toprule
+         & \\
+         & \\
+         & \\
+         & \\
+         \bottomrule
+    \end{tabular}
+    \caption*{Project's data storage locations.}
+    \label{tab:my_label}
+\end{table}
+
+
+\subsection*{Inventory of project's required external software}
+
+\begin*{table}
+    \centering
+    \begin*{tabular}{cc}
+        Description & Location\\
+        \toprule
+         & \\
+         & \\
+         & \\
+         & \\
+         \bottomrule
+    \end{tabular}
+    \caption*{Project's computer code storage locations.}
+    \label{tab:my_label}
+\end{table}
+
+\subsection*{Inventory of project's software repositories}
+
+
+\begin*{table}
+    \centering
+    \begin*{tabular}{cc}
+        Description & Location\\
+        \toprule
+         & \\
+         & \\
+         & \\
+         & \\
+         \bottomrule
+    \end{tabular}
+    \caption*{Project's computer code storage locations.}
+    \label{tab:my_label}
+\end{table}
+
+
+
+\subsection*{Relevant videos}
+
+\be
+\item 
+\ee
+
+\subsection*{Relevant blogs}
+
+\be
+\item 
+\ee
+
+
+\subsection*{Relevant literature sources}
+
+\be
+\item 
+\ee
+
+\subsection*{Relevant collections of PDFs in Research Rabbit and the like}
+
+\be
+\item 
+\ee
+
+
+\subsection*{Acknowledgements}
+% It is never too early to start this section.
+% Work on it should not be delayed until the last minute because you risk overlooking somebody's contribution.
+% 
+\be
+\item 
+\ee
+
+\subsection*{Funding sources}
+% It is never too early to start this section.
+% Work on it should not be delayed until the last minute because you risk overlooking a funding source.
+% 
+\be
+\item 
+\ee
+
+\subsection*{Project's progress summary for annual grant report}
+% It is never too early to start this section.
+%
+% 
+\be
+\item 
+\ee
+
+\subsection*{Project's progress summary for annual report to college}
+% It is never too early to start this section.
+% This will be where you inform your superiors what you have been up to.
+% 
+\be
+\item 
+\ee
+
+
+\section*{Plans to support the writing project}
+
+% While it is useful to write about half of a manuscript in four hours in the first sitting without having done any experiments to provide a mental framework for the project and limit the scope, the work will need to be done.
+% If the work is computational or experimental, many plans exist to get it done. 
+% Several plans must be developed to execute the work required to complete and submit the manuscript.
+% These plans might not be written down many times, but it is probably quite useful to actually articulate them somewhere.
+% These plans may not necessarily have to reside inside the writing log: A link to the plan in a plain text or an HTML file may be sufficient.
+% Some of these plans are global in nature and may be applicable across all projects.
+% Some plans may be specific to the project at hand and must be elaborated on.
+% If these plans are relatively short, they could be included in the writing log, but if they are lengthy, it might be necessary to just provide a link to them.
+
+
+\begin*{itemize}
+  \item Budget
+  \item Relation to specific aims of funded grants.
+  \item Secure funding for the research and manuscript.
+  \item Timeline to do the required experiments to test the hypothesis. 
+  \item Secure access to required national laboratory resources at experimental stations (i.e., general user proposal and beamtime requests).
+  \item Secure access to computing resources.
+  \item Gather the appropriate information from the literature.
+  \item Recruit collaborators
+  \item Recruit lab members to do the work.
+  \item Individual career development for lab members, including yourself.
+  \item Biosafety.
+  \item Authentication of key biological and chemical resources.
+  \item Rigorous statistical sampling and data analysis
+  \item Data management including backups and archives.
+  \item Data sharing.
+  \item The NIH PEDP.
+  \item Advertising plan: posters, talks, seminars, YouTube videos, social media posts.
+\end{itemize}
+
+
+
+\subsection*{Timeline for experiments}
+
+
+\subsection*{User proposals: national labs}
+
+
+\subsection*{User proposals: HPC}
+
+
+\subsection*{Literature retrieval}
+
+
+\subsection*{Funding}
+
+
+\subsection*{Recruitment of collaborators}
+
+
+\subsection*{Recruitment of workers}
+
+
+\subsection*{Career development plans}
+
+
+\subsection*{Biosafety}
+
+
+\subsection*{Authentication of key biological}
+
+
+\subsection*{Authentication of chemical resources}
+
+
+\subsection*{Statistical sampling and power analysis}
+
+
+\subsection*{Computer simulations}
+
+
+\subsection*{Data analysis}
+
+
+\subsection*{Data management}
+
+
+\subsection*{Data sharing}
+
+
+\subsection*{The NIH PEDP}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Project management for timely completion}
+
+% This section is to plan the completion of the manuscript and for making periodic assessments of its status.
+% Having the checklist and the timeline adjacent each other will aid the scheduling of remaining tasks.
+% The assessment of the current state could be included within the diary section, but we think it is more useful to include it in this area near the timeline and the checklist for completion. 
+% By having the assessments adjacent to each other, you should be able to see more clearly how progress is being made on the manuscript.
+
+
+\begin*{itemize}
+  \item Checklist for manuscript completion.
+  \item Timeline and Milestones.
+  \item Periodic assessments of the current state of the manuscript.
+\end{itemize}
+
+\subsection*{Checklist for manuscript completion}
+
+\begin*{description}
+  \item [\checkmark] Central hypothesis identified.
+  \item [] Introduction drafted to define scope.
+  \item [] Results ordered by relevance to the central hypothesis.
+  \item [] Results imagined as figures and tables.
+  \item [] Results outlined to the subsection level.
+  \item [] Results outlined to the paragraph level.
+  \item [] Figures have been conceptualized.
+  \item [] Figures have been drafted.
+  \item [] Figure legends have been drafted.
+  \item [] Tables have been conceptualized.
+  \item [] Tables have been drafted.
+  \item [] Table legends have been drafted.
+  \item [] Paragraphs in the Results section drafted.
+  \item [] Results concluding sentences checked.
+  \item [] Discussion points identified.
+  \item [] Prior publications checked for Discussion points.
+  \item [] Discussion paragraphs drafted.
+  \item [] Discussion concluding sentences checked.
+  \item [] Discussion subsections check with the central hypothesis.
+  \item [] Citations have been entered.
+  \item [] Citations have been checked.
+  \item [] Bibliographic information has been checked.
+  \item [] Accuracy of Bibliographic information checked.
+  \item [] Citations have entries in the annotated bibliography.
+  \item [] Abstract drafted. 
+  \item [] Supplemental materials assembled.
+  \item [] The first draft is finished.
+  \item [] Round 1 of rewriting finished.
+  \item [] Round 2 of rewriting finished.
+  \item [] Ready for reverse outline.
+  \item [] Round 3 of rewriting.
+  \item [] Solicit review by co-authors.
+  \item [] Internal polishing editing.
+  \item [] Ready for intense review by a professional writer.
+  \item [] Intensive review revisions have been incorporated.
+  \item [] Penultimate draft ready for internal proofreader.
+  \item [] Penultimate review revisions incorporated.
+  \item [] Manuscript ready for submission.
+\end{descriptiion}
+
+
+
+\subsection*{Timeline with milestones}
+% This is the planning section where the calendar is matched up with milestones: goals without deadlines are just dreams.
+% This is a tricky section to include inside of a writing log document because it often requires a heavy-duty external Library to be able to generate an image.
+% This could be done by simply copying the checklist and pasting it into this section as a table with three columns: milestone, target date, and achievement date.
+% This would lead to a very long table that might be too cluttered.
+% There might be a subset of the items in the checklist that are larger in scope that could be listed.
+% For example, completion of various parts of the writing log, key experiments, and solicitation of outside expertise.
+% The setting up of the time timeline will be very Project Specific and will require customization.
+% The main thing is to keep it simple enough to be useful but no simpler than necessary.
+
+
+% Add this package to the Preamble \usepackage{booktabs}
+\begin*{table}[htp] % (fold)
+\caption*{Timeline and milestones.}
+\index{timeline}
+\index{milestones}
+\label{tab:timeline}
+\begin*{center}
+\begin*{tabular}{lcc}
+% \begin*{tabular}{l p{12cm}} % use p when you have to control the column width
+\toprule
+Milestone  & Target date & Achievement date\\
+\midrule
+Milestone 1                      & date  & date \\
+Milestone 2                      & date  & date \\
+Milestone 3                      & date  & date  \\ 
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+% table label (end)
+
+
+\subsection*{Assessments of current state}
+
+\subsubsection*{Date: }
+\paragraph{How far is the manuscript from being completed (in percent completion)?}
+
+\paragraph{List what keeps the manuscript from being submitted today.}
+
+\paragraph{List what is missing from the manuscript that could improve its impact.}
+
+\paragraph{What could be removed from the manuscript to streamline it?}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Daily entries}
+\label{sec:dailyEntries}
+
+\subsection*{Prewriting protocol}
+\label{sub:prewritng-protocol}
+
+% While the above is useful for identifying what will be worked on, it does not necessarily define how that work will be done.
+% If the task involves generative writing, you may want to have a pre-writing protocol on hand.
+% This protocol is followed to warm up one's generative writing engine.
+% This could be developed as a decision tree because the degree and nature of the pre-writing exercise may depend on one's current state.
+% We provided a sample decision tree, which you will likely want to modify to fit your own needs and preferences.
+
+
+\subsection*{Protocol for diary entries}
+\label{sub:daily-protocol}
+
+\be
+\item At start of work session, review the timeline \ref{sub:benchmarks}, recent daily entries \ref{sub:daily-log}, next action item \ref{sub:next}, and to-do list \ref{sub:to-do}.
+\item Write the goal(s) for the current writing session to engage mentally in the work. This prose could be retained or deleted at the end of the work session.
+\item At the end of the work session, move finished items to an achievement list for the day.
+\item Move the unfinished items to the to-do list \ref{sub:to-do}.
+\item Identify the next task or action \ref{sub:next}.
+\item Update the wordcount.txt file, if you wrote anything \ref{sub:zk}.
+\item Update the project Sheet in the Writing Progress Workbook \ref{sub:WPsheet}.
+\item Update your personal knowledge base \ref{sub:zk}.
+\ee
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{Daily Log}
+\label{sub:daily-log}
+
+
+\subsubsection*{2024 January 21}
+
+Accomplishments:
+\bi
+\item 
+\item
+\item
+\ei
+
+\subsection*{Timeline or Benchmarks}
+\label{sub:benchmarks}
+
+% This section is an outline of benchmarks or deadlines.
+% It uses the description environment of LaTeX.
+% In this environment, the dates are put in square braces.
+% They will be printed in bold.
+% It helps to visualize the next steps that need to be taken to move the project forward.
+% It is best to try to map out a timeline so the project can continue progressing.
+
+
+\begin*{description}
+\item [Jan. 21]
+\item [Jan. 21]
+\item [Jan. 21] 
+\item [Jan. 21] 
+\item [Jan. 24] 
+\item [Jan. 26]
+\item [Jan. 26]
+\item [Jan. 30] 
+\item [Feb. 5] 
+\item [Feb. 8]
+\item [Feb. 9]
+\end{description}
+
+\subsection*{Next action}
+\label{sub:next}
+
+% List the next task or action to be taken to move the project forward.
+% The section is supposed to contain one to-do item.
+% It is the next task that needs to be done.
+% The idea is to determine at the end of the current work session what the next action should be so that you do not have to spend time selecting the next action item when you return to the project.
+% This idea came from David Allen, the author of ``Getting things done''.
+
+% I have to admit that I rarely do this task next. 
+% I generally reconsider all of the pending to-do's at the start of my work session, and I often wind up identifying a new task that was not identified as the ``Next Action'' at the end of the last work session.
+% Anyways, you do gain the Peace of Mind knowing that you have identified the next step, although you may not take it.
+% If you do not use this section, go ahead and delete it.
+
+
+\subsection*{To be done}
+\label{sub:to-do}
+
+% These are the tasks that are thought to be required to get the project finished.
+% The prioritizing of the tasks is the hard part.
+% The book ``Time Power'' by Charles Hobbs provides helpful helpful guidance.
+
+\bi
+\item 
+\item 
+\item 
+\item 
+\ei
+
+
+
+
+\subsection*{Update Writing Progress Notebook}
+\label{sub:WPsheet}
+% The writing progress notebook enables the tracking of progress on a project basis \footnote{\url{https://github.com/MooersLab/writing-progress-2024-25}}.
+% The Notebook automatically updates sums of words written and minutes spent across all projects on a given day.
+% It only takes a few seconds to enter the number of words written and the time spent on a specific project on that project's Google Sheet. 
+% If you have Voice In Plus activated, say the words ``open sheet 37'' to have the worksheet for project 37 opened in the web browser.
+% If not, click on this direct link to the Google Sheet in the compiled PDF of this writing log \footnote{\url{<insert link for specific sheet>}}.
+
+% Update the sheet for this project with the total number of minutes spent on this project and the word count.
+% The word count is accessed in Overleaf under the menu pull-down.
+% The word count operation has to be applied to a recently compiled tex document.
+
+
+
+
+
+
+\subsection*{Update Zettelka\"sten in org-roam}
+\label{sub:zk}
+% Update your knowledge base if you find anything worth adding to it.
+
+% If you maintain a knowledgebase like a Zettelka\"sten in org-roam or Obsidian or Roam or Notion, you might want to consider adding literature notes and permanent notes at the end of a work session.
+% The name of the index for this project is \verb|XXXXXXXXX|.
+% Enter \mintinline{emacs}{Control-c n f} to search for this project note.
+% This knowledge base can store information you may want to use eventually in the paper.
+
+% You could alternatively create a section at the bottom of this writing log to store this kind of information in a list.
+% Often such lists are very useful for the planning and for the development of the manuscript.
+% While such notes can be stored in an annotated bibliography (), I seem to be less likely to utilize this information while working on a manuscript because the annotated bibliographies are in a different document.
+% Because it is out of sight, it is also out of mind.
+
+% The advantage of keeping these bits of knowledge inside of the writing log is that you can link entries made in the daily log section to these bits of knowledge by using the \verb||\label{}|| and \verb|\ref{}| macros of LaTeX.
+% You can also set up label and ref pairs between to-do items and the bits of knowledge.
+% Some of these notes May refer to a particular reference, so you can include the cite keys with these notes if the reference has been included in the BibTeX library file that is sourced at the bottom of this file.
+% I usually source the BibTeX library file that I use in the annotated bibliography for a particular project.
+% Keeping these items together in one document will improve the odds that you act upon the collected information, reducing the mental bandwidth you have to commit to managing this writing log.
+
+% Another approach that I sometimes use is to include such information on lines that have been commented out in the manuscript's text document near where I want to use that information.
+% I do have to admit that this approach can become a little unwieldy if the comments span many lines.
+% The clutter can be eliminated by using a section\ref{subsec:new-ideas} at the bottom of the writing log, as discussed above.
+
+% These notes that you may add might be in the form of what are called \textbf{permanent notes} that include new insights or plans for for the work.
+% These thoughts are not directly linked or derived from any particular literature reference.
+% Another kind of note is known as a \textbf{citation note} or \textbf{literature note} and is directly derived from a specific reference.
+% This kind of note will contain the BibTeX cite key.
+
+% If you are using the Pomodoro method, you would probably want to commit the last one or two poms of a work session on a writing project to the updating of your knowledge base.
+% If you have been lagging on doing such updates, you may want to commit four to six poms to this kind of work; you might have to do this across multiple days if you have fallen behind.
+
+
+
+\subsection*{Word Count}
+\label{sub:wordcount}
+\index{word count}
+
+% The word count is stored in wordcount.txt.
+% The word count tends to approach a plateau in the latter stages of writing.
+
+\begin*{figure}[htp!]
+  \centering
+  \begin*{tikzpicture}
+    \begin*{axis}[
+      xlabel={Date},
+      ylabel={Word Count Cumulative},
+      % legend pos=south east,
+      % legend entries={},
+      ]
+      \addplot table [x=Day,y=Words] {wordcount.txt};
+    \end{axis}
+  \end{tikzpicture}
+\end{figure}
+
+\begin*{table}[ht]
+  \centering
+  \pgfplotstabletypeset[
+  columns/Date/.style={column name=Date},
+  columns/Day/.style={column name=Day},
+  columns/Word/.style={column name=Words},
+  ]{wordcount.txt}
+  \caption*{Date, day and wordcount.}
+  \label{tab:my_label}
+\end{table}
+
+
+\section*{Future additions and tangents}
+\label{sec:future}
+
+
+\subsection*{Ideas to consider adding to the manuscript}
+\label{subsec:new-ideas}
+
+
+\subsubsection*{New nodes for the mindmap(s)}
+% Mind maps are powerful tools for generating new ideas.
+% They can be used to plan a manuscript at its initiation.
+% They are particularly helpful for mapping out the components of the results section and the discussion section.
+% If a paper is starting to feel stuck or stale, mind maps can be used to convert the paper into an outline form that then can be used to restructure the paper there by leading to a massive rewrite.
+%
+% Although maps can be generated inside of the LaTeX files using the TikZ package \url{https://latexdraw.com/mind-map-latex-tutorial/}, I recommend using the IthoughtsX software because it does not get in the way of the building of the mind map.
+% If you want to be a purist, you could convert the IthoughtX mind map into a tikz mind map after the mind map has stabilized.
+%
+% IthoughtsX does not export to tikz. An exporter may not be hard to write. 
+%
+% Another option would be to go through an intermediate mind map file format.
+% IthoughtsX exports to the `mm` file format, which is read by Freeplane.
+% Freeplane is a free and powerful alternative or complement to IthoughtsX (https://docs.freeplane.org/).
+% Freeplane is written in Java.
+% Freeplane exports mindmaps to LaTeX, including beamer files, but not to Tikz without installing a plugin.
+% Others have contributed file exporters of various kinds.
+% Freeplane exports files with the `.mm` file extension.
+%
+% You could always export the Mind map to a PDF or PNG file and import it as a figure into the writing log.
+% It might be useful to retain the initial mind map and compare it to the final mind map to gain some insights into how the paper has evolved over time.
+% A mind map can also be generated for a collection of papers in order to show how the work fits into a larger research program.
+
+\begin*{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{figures/mindmap.png}
+    \caption*{Enter Caption}
+    \label{fig:enter-label}
+\end{figure}
+
+
+\bi
+    \item  
+    \item  
+    \item  
+\ei
+
+
+\subsubsection*{Introduction}
+\label{ssubsec:new-ideas:Intro}
+
+
+\bi
+    \item  
+    \item  
+    \item  
+\ei
+
+\subsubsection*{Results}
+\label{ssubsec:new-ideas:Results}
+
+\bi
+    \item  
+    \item  
+    \item  
+\ei
+
+\subsubsection*{Discussion}
+\label{ssubsec:new-ideas:Discussion}
+
+\bi
+    \item  
+    \item  
+    \item  
+\ei
+
+\subsection*{To be done someday}
+\label{subsec:someday}
+
+% This section stores tasks that are related to the current project and that may be worth doing someday.
+% Often these tasks are tangential to addressing the central hypothesis of the paper.
+% This is a place for capturing those wonderful ideas.
+% Sometimes these ideas blossom into new projects.
+% This section can capture ideas that might be mentioned in terms of future work in the discussion section of the manuscript.
+
+
+\bi
+    \item  
+    \item  
+    \item  
+\ei
+
+\subsection*{Spin off writing projects}
+\label{subsec:spinoffs}
+% These include new manuscripts, grant applications, books, talks, posters, parts of seminars.
+
+
+\begin*{description}
+    \item [ ]
+    \item [ ]
+    \item [ ]
+    \item [ ]
+\end{description}
+
+
+
+\section*{Guidelines, checklists, protocols, helpful hints}
+\label{sec:guides}
+
+\subsection*{Tips for using Overleaf}
+\label{subsec:guides:overleaf}
+
+
+\be
+\item Chrome has the TextArea extension that is needed to run Grammarly in Overleaf.
+\item Use the shortcuts (new commands defined in the preamble) to save time typing.
+\item Where shortcuts are not possible, use templates.
+\item View Overleaf project with Chrome to be able to run Grammarly via the Chrome Grammarly extension.
+\item code Snippets can be mapped to voice commands in Voice In Plus.
+\ee 
+
+
+\subsection*{Protocol for running Grammarly in Overleaf}
+\label{subsec:guides:grammarlyInoverleaf}
+
+% You must install Grammarly and Textarea extensions for Chrome.
+% With your project open in Overleaf, open the textarea icon in the upper right of your browser and check the checkbox.
+% This will convert the PDF viewport into RichText. 
+% Hit the Grammarly icon. 
+% Grammarly will check the text in the RichText viewport.
+% Corrections that you make in the RichText viewport are applied to your tex file in the left viewport.
+% Note that the document's preamble will cause the text to be spread out.
+% You may have to scroll down a ways to see the document environment.
+
+
+\subsection*{Guidelines for debugging the annotated bibliography} 
+\label{subsec:guides:annotDebug}
+
+For a template annotated bibliography, see https://github.com/MooersLab/annotatedBibliography.
+
+\be
+\item Escape with a forward slash the following: \&, \_, \%, and \#. 
+\item Title case the journal titles.
+\item Replace Unicode characters with LaTeX code: e.g., replace Å with \AA. Not all LaTeX document classes are compatible with Unicode.
+\item The primes have to be replaced with '.
+\item The vertical red rectangles with a white dot in the middle should be replaced with a whitespace.
+\item There are two styles in the bibtex world: bibtex and biblatex. We are using bibtex. It is simpler. It has fewer fields.
+\item Use Google Scholar bibtex over Medline or PubMed biblatex. 
+\item Often the error is in the bibitem entry above the one indicated in the error messages.
+\item All interior braces must be followed by a comma, including the last one.
+\item When stumped, replace the entry with a fresh one from Google Scholar.
+\ee
+
+
+
+\subsection*{Graphical Abstract}
+\label{subsec:guides:graphicalAbstract}
+
+
+The following is copied from the Crystal Journal's \href{https://www.mdpi.com/journal/crystals/instructions#preparation}{author guidelines}.
+
+\begin*{quote}
+A graphical abstract (GA) is an image that appears alongside the text abstract in the Table of Contents. 
+In addition to summarizing the content, it should represent the topic of the article in an interesting way.
+The GA should be a high-quality illustration or diagram in PNG, JPEG, EPS, SVG, PSD, or AI format. 
+Written text in a GA should be clear and easy to read, using one of the following fonts: Times, Arial, Courier, Helvetica, Ubuntu or Calibri.
+The minimum size required for the GA is 560 $\times$ 1100 pixels (height $\times$ width). 
+When submitting larger images, please, keep to the same ratio.
+\end{quote}
+
+% I usually make the mistake of treating the graphical abstract as an afterthought.
+% Then there is no time to make one while submitting the manuscript.
+% This can lead to delays or to the journal converting one of your sub-figures into a graphical abstract.
+% A good example of a graphical abstract is found \href{https://www.mdpi.com/2073-4352/11/3/273}{here}.
+
+
+
+
+\subsection*{Guidelines for using Writing Progress Notebook}
+\label{subsec:guides:wpnb}
+
+The writing progress notebook enables the tracking of progress on a project basis \footnote{\url{https://github.com/MooersLab/writing-progress-2024-25}}.
+The Notebook automatically updates sums of words written and minutes spent across all projects on a given day.
+It only takes a few seconds to enter the number of words written and the time spent on a specific project on that project's Google Sheet. 
+If you have Voice In Plus activated, say the words ``open sheet 37'' to have the worksheet for project 37 opened in the web browser.
+If not, click on this direct link to the Google Sheet in the compiled PDF of this writing log \footnote{\url{<insert link for specific sheet>}}.
+
+
+
+
+\subsection*{Guidelines for using a personal knowledge base}
+\label{subsec:guides:knowledgebase}
+
+If you maintain a knowledge base like a Zettelka\"sten  in org-roam or Obsidian or Notion, you might consider adding literature notes and permanent notes at the end of a work session \footnote{\url{https://wiki2.org/en/Zettelkasten}} \footnote{\url{https://wiki2.org/en/Comparison_of_note-taking_software}}.
+The name of the index for this project is \verb|XXXXXXXXX|.
+Enter \mintinline{emacs}{Control-c n f} to search for this project note.
+This knowledge base can store information you may want to use eventually in the paper.
+
+These notes that you may add might be in the form of what are called \textbf{permanent notes} that include new insights or plans for the work.
+These thoughts are not directly linked or derived from any particular literature reference.
+Another kind of note is known as a \textbf{citation note} or \textbf{literature note} is derived from a specific reference.
+This kind of note will contain the BibTeX cite key.
+
+While such notes can be stored in an annotated bibliography (insert link), I seem less likely to utilize this information while working on a manuscript because the annotated bibliographies are in a different document.
+Because it is out of sight, the annotated bibliography is also out of mind.
+
+The advantage of keeping these bits of knowledge inside of the writing log is that you can link entries made in the daily log section to these bits of learning by using the \verb|\label{}| and \verb|\ref{}| macros of \LaTeX.
+You can also set up \verb|\label{}| and \verb|\ref{}| pairs between to-do items and the bits of knowledge.
+Some of these notes may refer to a particular reference, so you can include the cite keys with these notes if the reference has been included in the BibTeX library file that is sourced at the bottom of this file.
+I usually source the BibTeX library file I use in the annotated bibliography for a particular project.
+Keeping these items together in one document will increase your chances of acting on the collected information, reducing the mental bandwidth you have to commit to managing this writing log.
+
+Another approach I use sometimes is to include such information on lines that have been commented out in the manuscript's tex document near where I want to utilize that information.
+I must admit that this approach can become a little unwieldy if the comments span many lines.
+
+If you use the Pomodoro method, you would probably want to commit the last one or two poms of a work session on a writing project to update your knowledge base.
+If you have been lagging on doing such updates, you may want to commit four to six poms to this kind of work; you might have to do this across multiple days if you have fallen behind.
+
+\subsection*{Writer's Creed}
+
+A writer does the following:
+
+\begn*{itemize}
+  \item Schedules daily writing time on workdays; takes a relaxed approach on weekends.
+  \item Shows up and writes during the scheduled writing time.
+  \item Stands up and walks around every 25 minutes for no more than 5 minutes (i.e., uses the Pomodoro technique).
+  \item Limits generative writing to 3-5 hours daily; spends the rest of the day on supportive tasks and other duties.
+  \item Overcomes writer's block by rewriting the last paragraph or reverse outlining a section.
+  \item Keeps near a list of tricks for overcoming writer's block.
+  \item Manages their energy by doing generative writing first, rewriting second, and supportive tasks later in the day.
+  \item Jumps into generative writing; does not wait to be inspired.
+  \item Does generative writing when half-awake early in the day and editing and rewriting when fully alert, generally mid to late morning.
+  \item Masters their writing tools without letting the tools master them. 
+  \item Writes without distractions (no YouTube videos, TV, radio, etc.; playing classical music is okay sometimes).
+  \item Tracks the time spent and words written by project ID.
+  \item Takes credit for time spent reading material related to the project, especially if finished by making an entry in an annotated bibliography. 
+  \item Uses a separate writing log for each writing project.
+  \item Makes writing social when it is mutually beneficial. 
+  \item Reads and writes about writing at least once a fortnight.
+  \item Keeps up on weasel words,  wordy phrases, cliché, and other junk English; reviews this list quarterly to avoid their use.
+  \item If a scientist, writes with precision, clarity, and conciseness. The order is in descending importance. Has memorized this list.
+  \item Uses computerized writing tools responsibly, not blindly: Takes full responsibility for the final draft.
+  \item Documents in writing log any use of AI to generate or paraphrase passages.
+  \item Uses dictation software for some generative writing.
+  \item Uses software tools like *Grammarly*, the *LanguageTool*, and the *Hemingway.app* to stimulate improvements in their writing.
+  \item Knows enough about good writing to accept only useful suggestions.
+  \item Does not blindly accept noun clusters, English contractions, and weasel words suggested by AI software.
+  \item Uses copilot when exhausted to complete sentences.
+  \item Uses the paraphrasing tool of some chatbots (e.g. TexGPT) cautiously and only to generate intermediate drafts.
+  \item Reviews this list periodically.
+\end{itemize}
+
+Premises of the creed:
+
+\begn*{itemize}
+  \item Writing is any activity that advances a writing project. Most of the time spent on these writing activities does not involve generative writing.
+  \item Generative writing is the most valuable activity: All other activities descend from it.
+  \item Generative writing and editing use different parts of the brain, so they should be done at separate times.
+  \item Generative writing is best done when half awake because your internal editor is not fully on so new ideas are more likely to emerge.
+  \item Generative writing be done by dictation while commuting if planned before the commute.
+  \item Editing is best done when fully awake because your internal editor will be activated. (Be careful; late-night editing can keep you awake later than intended and interfere with your sleep pattern.)
+  \item Most of the time spent on actual *writing* involves rewriting.
+  \item Planning is an important (underemphasized) component of writing.
+  \item Writing includes any activity that advances a writing project.
+  \item The word count does not capture most writing-related activities. Hence, the time spent on these activities must be tracked to document these efforts.
+  \item Time tracking is an essential component of time management. It is hard to manage what you do not measure. **Writing involves a lot of time management!!**
+  \item 90 minutes of generative writing per day on one project is the optimal length of time due to our [ultradian cycles](https://www.youtube.com/watch?v=ezT8kGzYOng). Thank you to my brother, Randall, for alerting me to this. Longer stretches of writing on one project are known as *binge writing*, which always leads to diminishing returns. 
+  \item Writing includes reading the papers that you cite and those that you do not wind up citing. This reading activity can rejuvenate your momentum and inspire new ideas. It is best done in the evening so your subconscious can work overnight with the new insights. **Writing involves feeding your subconscious: Feed our head!**. Reading is grossly underemphasized in writing books. Time should be scheduled for it else it is less likely to be done.
+  \item Writing includes mundane tasks like managing bibliographic libraries and making figures; these are good afternoon activities.
+  \item Writing includes data analysis.
+\end{itemize}
+
+
+\section*{Backmatter}
+
+% Uncomment after you have installed an annotated Bibliography.
+%\bibliography{annotatedBiblio/annot}
+
+\printindex
+
+\end{document}
+
