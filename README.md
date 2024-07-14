@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=writingLogTemplate&message=0.5.6&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=writingLogTemplate&message=0.5.7&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 # An Advanced Writing Tool for Metacognition about Research Papers
@@ -314,22 +314,23 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 
 ## Version History
 
-|Version           | Changes                                                                   | Date            |
-|:----------------:|:-------------------------------------------------------------------------:|:---------------:|
-| Version 0.3      | First posted.                                                             | 2024 January 22 |
-| Version 0.4.0    | Added subsections on data and code inventories.                           | 2024 April 5    |
-| Version 0.4.1    | Added subsections on lists of videos and blogs.                           | 2024 April 7    |
-| Version 0.4.2    | Added version with hidden comments to spare the trouble of deleting them. | 2024 May 17     |
-| Version 0.4.2    | Edited the README.md for improving readabiity.                            | 2024 May 30     |
-| Version 0.5.0    | Added subsubsection for mindmap.                                          | 2024 June 11    |
-| Version 0.5.1    | Added subsubsection for GitHub repos.                                     | 2024 June 12    |
-| Version 0.5.2    | Added subsubsection for Plans.                                            | 2024 June 12    |
-| Version 0.5.3    | Expanded lists to include nuts and bolts.                                 | 2024 June 15    |
-| Version 0.5.4    | Added subsection on rewriting protocol.                                   | 2024 June 18    |
-| Version 0.5.5    | Added section on planning for project completion.                         | 2024 June 19    |
-| Version 0.5.5    | Added six paragraphs to REAME.md to explain the advanced features.        | 2024 June 20    |
-| Version 0.5.6    | Added the writer's creed.                                                 | 2024 June 24    |
-| Version 0.5.6    | Minor typos fixed in the README.md.                                       | 2024 June 25    |
+|Version           | Changes                                                                                          | Date                     |
+|:----------------:|:----------------------------------------------------------------------------------------:|:-----------------------:|
+| Version 0.3      | First posted.                                                                                   | 2024 January 22 |
+| Version 0.4.0    | Added subsections on data and code inventories.                       | 2024 April 5         |
+| Version 0.4.1    | Added subsections on lists of videos and blogs.                          | 2024 April 7         |
+| Version 0.4.2    | Added version with hidden comments.                                         | 2024 May 17       |
+| Version 0.4.2    | Edited the README.md for improving readabiity.                        | 2024 May 30       |
+| Version 0.5.0    | Added subsubsection for mindmap.                                             | 2024 June 11       |
+| Version 0.5.1    | Added subsubsection for GitHub repos.                                       | 2024 June 12      |
+| Version 0.5.2    | Added subsubsection for Plans.                                                   | 2024 June 12       |
+| Version 0.5.3    | Expanded lists to include nuts and bolts.                                     | 2024 June 15       |
+| Version 0.5.4    | Added subsection on rewriting protocol.                                       | 2024 June 18      |
+| Version 0.5.5    | Added section on planning for project completion.                       | 2024 June 19      |
+| Version 0.5.5    | Added six paragraphs to REAME.md explaining advanced features.        | 2024 June 20    |
+| Version 0.5.6    | Added the writer's creed.                                                              | 2024 June 24      |
+| Version 0.5.6    | Minor typos fixed in the README.md.                                         | 2024 June 25      |
+| Version 0.5.7    | Inserted list of plans.                                                                     | 2024 July 14       |
 
 ## Sources of Funding
 
