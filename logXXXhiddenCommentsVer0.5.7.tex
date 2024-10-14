@@ -335,7 +335,7 @@ Abbreviations are also listed at the end of the manuscript.
     \label{tab:my_label}
 \end{table}
 
-\subsection*{Inventory of data on hand}
+\subsubsection*{Inventory of data on hand}
 
 \begin*{table}
     \centering
@@ -353,7 +353,7 @@ Abbreviations are also listed at the end of the manuscript.
 \end{table}
 
 
-\subsection*{Inventory of project's required external software}
+\subsubsection*{Inventory of project's required external software}
 
 \begin*{table}
     \centering
@@ -370,7 +370,7 @@ Abbreviations are also listed at the end of the manuscript.
     \label{tab:my_label}
 \end{table}
 
-\subsection*{Inventory of project's software repositories}
+\subsubsection*{Inventory of project's software repositories}
 
 
 \begin*{table}
@@ -384,7 +384,7 @@ Abbreviations are also listed at the end of the manuscript.
          & \\
          \bottomrule
     \end{tabular}
-    \caption*{Project's computer code storage locations.}
+    \caption*{Project's code repoitokvlk.}
     \label{tab:my_label}
 \end{table}
 
@@ -393,7 +393,9 @@ Abbreviations are also listed at the end of the manuscript.
 \subsection*{Relevant videos}
 
 \be
-\item 
+-
+-
+-
 \ee
 
 \subsection*{Relevant blogs}
@@ -963,6 +965,19 @@ Accomplishments:
 % Note that the document's preamble will cause the text to be spread out.
 % You may have to scroll down a ways to see the document environment.
 
+
+
+\subsection*{Guidelines for BibTeX to BibLaTeX library conversion}
+
+Note that you must supply the full file paths.
+
+\be
+\item Start R-Studio
+\item library(devtools)
+\item install_github("GeoBosh/rbibutils")
+\item library(rbibutils)
+\item bibConvert("/Users/blaine/Documents/global.bib", "/Users/blaine/Documents/globalBiblatex.bib", "bibtex", "biblatex")
+\ee
 
 \subsection*{Guidelines for debugging the annotated bibliography} 
 \label{subsec:guides:annotDebug}
