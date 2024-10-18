@@ -967,17 +967,27 @@ Accomplishments:
 
 
 
-\subsection*{Guidelines for BibTeX to BibLaTeX library conversion}
+\subsection*{Protocol for BibTeX to BibLaTeX library conversion}
+
+This protocol requires the R package.
+The use of the R IDE Rstudio is optional.
 
 Note that you must supply the full file paths.
+Also, note the order of the arguments to bibConvert.
+The third argument is the file type of the first.
+The fourth argument is the file type of the second argument.
 
-\be
+\begin{enumerate}
 \item Start R-Studio
-\item library(devtools)
-\item install_github("GeoBosh/rbibutils")
-\item library(rbibutils)
-\item bibConvert("/Users/blaine/Documents/global.bib", "/Users/blaine/Documents/globalBiblatex.bib", "bibtex", "biblatex")
-\ee
+\item Run the following code after editing the file paths:
+\end{enumerate}
+
+\begin{minted}{R}
+library(devtools)
+install_github("GeoBosh/rbibutils")
+library(rbibutils)
+bibConvert("/Users/blaine/Documents/global.bib", "/Users/blaine/Documents/globalBiblatex.bib", "bibtex", "biblatex")
+\end{minted}
 
 \subsection*{Guidelines for debugging the annotated bibliography} 
 \label{subsec:guides:annotDebug}
