@@ -193,7 +193,7 @@ The subsections of these five sections are shown below.
 
 
 
-### Future additions and tangents
+## Future additions and tangents
 
 - New branches on the above mind map for this project and research program.
 - Mind map for the research program (the big picture that includes related manuscripts, talks, posters, funded grants, grant applications). This is a super metacognition tool.
@@ -211,7 +211,7 @@ The subsections of these five sections are shown below.
   + posters
 
 
-### Guidelines, checklists, protocols, helpful hints
+## Guidelines, checklists, protocols, helpful hints
  
 - Tips for using Overleaf
 - Protocol for running Grammarly in Overleaf
@@ -223,6 +223,10 @@ The subsections of these five sections are shown below.
 - Guideline for writing a cover letter.
 - Guideline for responding to reviewers.
 
+## Backmatter
+- bibliography
+- index
+- glossary
 
 ## Sorting of lists
 
@@ -331,6 +335,7 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 | Version 0.5.6    | Added the writer's creed.                                                              | 2024 June 24      |
 | Version 0.5.6    | Minor typos fixed in the README.md.                                         | 2024 June 25      |
 | Version 0.5.7    | Inserted list of plans.                                                                     | 2024 July 14       |
+| Version 0.5.8    | Added header with short author list, running title, date printed, and 1 of N page numbers.  Added glossary. | 2024 July 14       |
 
 ## Sources of Funding
 
