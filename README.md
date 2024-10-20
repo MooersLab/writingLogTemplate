@@ -294,6 +294,50 @@ Compile times are several seconds on a 2018 MacBook Pro with 32 GB of RAM.
 
 For more keybindings, see the README.md file of the repository for the [latex-emacs](https://github.com/MooersLab/latex-emacs) profile.
 
+## Bash helper functions
+
+Function for creating writing log template for a new writng project.
+
+```bash
+function logtex {
+echo "Create writing log template for juournal article in LaTeX."
+if [ $# -lt 1 ]; then
+  echo 1>&2 "$0: not enough arguments"
+  echo "Usage1: logtex projectIndexNumber"
+  return 2
+elif [ $# -gt 1 ]; then
+  echo 1>&2 "$0: too many arguments"
+  echo "Usage1: logtex projectIndexNumber"
+  return 2
+fi
+projectID="$1"
+mkdir abib$1
+cp ~/6112MooersLabGitHubLabRepos/writingLogTemplate/current.tex log$1.tex
+cp ~/6112MooersLabGitHubLabRepos/writingLogTemplate/wordcount.tex .
+}
+
+function texlog {
+echo "Create writing log template for juournal article in LaTeX."
+if [ $# -lt 1 ]; then
+  echo 1>&2 "$0: not enough arguments"
+  echo "Usage1: logtex projectIndexNumber"
+  return 2
+elif [ $# -gt 1 ]; then
+  echo 1>&2 "$0: too many arguments"
+  echo "Usage1: logtex projectIndexNumber"
+  return 2
+fi
+projectID="$1"
+mkdir abib$1
+cp ~/6112MooersLabGitHubLabRepos/writingLogTemplate/current.tex log$1.tex
+cp ~/6112MooersLabGitHubLabRepos/writingLogTemplate/wordcount.tex .
+}
+
+```
+
+
+
+
 ## Related projects of possible interest
 
 - [Writing log template in Org-mode](https://github.com/MooersLab/writingLogTemplateInOrg)
