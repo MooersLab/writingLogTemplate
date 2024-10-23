@@ -379,7 +379,7 @@ cp ~/6112MooersLabGitHubLabRepos/writingLogTemplate/wordcount.tex .
 | Version 0.5.6    | Added the writer's creed.                                                              | 2024 June 24      |
 | Version 0.5.6    | Minor typos fixed in the README.md.                                         | 2024 June 25      |
 | Version 0.5.7    | Inserted list of plans.                                                                     | 2024 July 14       |
-| Version 0.5.8    | Added header with short author list, running title, date printed, and 1 of N page numbers.  Added glossary. | 2024 July 14       |
+| Version 0.5.8    | Added header with short author list, running title, date printed, and 1 of N page numbers.  Added glossary. | 2024 October 20       |
 
 ## Sources of Funding
 
