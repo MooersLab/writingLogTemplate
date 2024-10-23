@@ -23,7 +23,7 @@ This document is a tool for narrowing your focus and sustaining momentum on one 
 We know others who have suggested keeping a writing diary, but these diaries are not project-specific.
 Keeping the document specific to one project is essential to narrow one's focus.
 
-Busy academics often have to work on several writing projects in a given week because they do not have the luxury of working on one writing project at a time.
+Busy academics often have to work on several writing projects in a given week because they do not have the luxury of working on one project at a time.
 The one project-at-a-time approach has a lower cognition load, but it also gives the subconscious less time to develop ideas in the background of one's mind. 
 Working on several projects in parallel leads to juggling dozens to hundreds of thoughts about several writing projects.
 Keeping all these thoughts across multiple projects in one document leads to a tangled mess that is very laborious and time-consuming to parse.
@@ -107,7 +107,7 @@ In this approach, you may avoid committing conflicts by storing these two docume
 ## Instructions
 
 Instructions for using the writing log are found in the annotations in the template.
-You can use [logXXXXhiddenCommentsVer0.5.6.tex](https://github.com/MooersLab/writingLogTemplate/blob/main/logXXXhiddenCommentsVer0.5.5.tex), which hides the comments in commented-out lines to spare you the trouble of deleting them while retaining them for future reference.
+You can use [logXXXXhiddenCommentsVer0.5.8.tex](https://github.com/MooersLab/writingLogTemplate/blob/main/logXXXhiddenCommentsVer0.5.8.tex), which hides the comments in commented-out lines to spare you the trouble of deleting them while retaining them for future reference.
 Replace XXXX with the project number or number-name.
 
 Version 0.5 of the writing log was divided into five sections: 
@@ -305,11 +305,13 @@ For more keybindings, see the README.md file of the repository for the [latex-em
 
 ## Bash helper functions
 
-Function for creating writing log template for a new writng project.
+Function for creating a writing log template for a new writing project.
+The most recent template has been copied to `current.tex`.
+Edit the file paths to customize to your situation.
 
 ```bash
 function logtex {
-echo "Create writing log template for juournal article in LaTeX."
+echo "Create writing log template for a journal article in LaTeX."
 if [ $# -lt 1 ]; then
   echo 1>&2 "$0: not enough arguments"
   echo "Usage1: logtex projectIndexNumber"
@@ -326,7 +328,7 @@ cp ~/6112MooersLabGitHubLabRepos/writingLogTemplate/wordcount.tex .
 }
 
 function texlog {
-echo "Create writing log template for juournal article in LaTeX."
+echo "Create writing log template for a journal article in LaTeX."
 if [ $# -lt 1 ]; then
   echo 1>&2 "$0: not enough arguments"
   echo "Usage1: logtex projectIndexNumber"
