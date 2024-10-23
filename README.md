@@ -4,10 +4,19 @@
 # An Advanced Writing Tool for Metacognition about Research Papers
 
 ## Introduction
-This writing log contains a diary about a writing project, but it also contains the metadata (plans, decisions, correspondence, and progress made) about the writing project that is often stored in comments or at the bottom of manuscript documents.
+This writing project log contains a diary about a writing project. 
+It also contains the metadata (plans, decisions, correspondence, and progress made) about the writing project that is often stored in comments or at the bottom of manuscript documents.
 These metadata are vulnerable to being accidentally deleted and clutter the main manuscript document.
-These metadata are actually very valuable and deserve to be stored properly.
+These metadata are very valuable and deserve to be appropriately stored.
 We think that storing them with the diary about the progress being made on the writing project enhances the use of the diary for metacognition about the writing project.
+
+This template document is a thinking tool, NOT a daily writing accountability tool.
+See the following links for accountability tools:
+
+- [Writing progress by project](https://github.com/MooersLab/writing-progress-2024-25)
+- [Time spent by project](https://github.com/MooersLab/timeSpent)
+- [Writing contract](https://github.com/MooersLab/writingContract)
+- [Writers creed](https://github.com/MooersLab/thewriterslaw) 
 
 ## Background
 This document is a tool for narrowing your focus and sustaining momentum on one specific writing project.
