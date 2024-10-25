@@ -16,7 +16,7 @@ Open a new project on Overleaf via uploading the zip file `drag-n-drop-overleafV
 The tex file will open and compile. The PDF should appear in a second.
 
 ## Slower start
-Overwise download, unzip, and compile the tex file. The minted package is in use. You need the compile flag 
+Download drag-n-drop-overleafVer058.zip, unzip, and compile the tex file. The minted package is in use. Will compile with `pdflatex -shell-escape`.
 
 
 ## Background 
