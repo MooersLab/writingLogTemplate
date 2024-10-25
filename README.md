@@ -1,14 +1,25 @@
 ![Version](https://img.shields.io/static/v1?label=writingLogTemplate&message=0.5.7&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-# An Advanced Writing Tool for Metacognition about Research Papers
+# Writing Tool for Metacognition and Storign Metadata about Research Papers
 
 ## Introduction
 This writing project log contains a diary about a writing project. 
-It also contains the metadata (plans, decisions, correspondence, and progress made) about the writing project that is often stored in comments or at the bottom of manuscript documents.
+It also contains the metadata (plans, decisions, correspondence, and progress made) about the writing project, often stored in comments or at the bottom of manuscript documents.
 These metadata are vulnerable to being accidentally deleted and clutter the main manuscript document.
 These metadata are very valuable and deserve to be appropriately stored.
 We think that storing them with the diary about the progress being made on the writing project enhances the use of the diary for metacognition about the writing project.
+
+## Quick start
+
+Open a new project on Overleaf via uploading the zip file `drag-n-drop-overleafVer058.zip`.
+The tex file will open and compile. The PDF should appear in a second.
+
+## Slower start
+Overwise download, unzip, and compile the tex file. The minted package is in use. You need the compile flag 
+
+
+## Background 
 
 This template document is a thinking tool, NOT a daily writing accountability tool.
 See the following links for accountability tools:
