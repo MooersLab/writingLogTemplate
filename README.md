@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=writingLogTemplate&message=0.5.7&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=writingLogTemplate&message=0.5.8&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 # Writing Tool for Metacognition and Storign Metadata about Research Papers
@@ -397,11 +397,11 @@ cp ~/6112MooersLabGitHubLabRepos/writingLogTemplate/wordcount.tex .
 | Version 0.5.3    | Expanded lists to include nuts and bolts.                                     | 2024 June 15       |
 | Version 0.5.4    | Added subsection on rewriting protocol.                                       | 2024 June 18      |
 | Version 0.5.5    | Added section on planning for project completion.                       | 2024 June 19      |
-| Version 0.5.5    | Added six paragraphs to REAME.md explaining advanced features.        | 2024 June 20    |
+| Version 0.5.5    | Added six paragraphs to README.md explaining advanced features.        | 2024 June 20    |
 | Version 0.5.6    | Added the writer's creed.                                                              | 2024 June 24      |
 | Version 0.5.6    | Minor typos fixed in the README.md.                                         | 2024 June 25      |
 | Version 0.5.7    | Inserted list of plans.                                                                     | 2024 July 14       |
-| Version 0.5.8    | Added header with short author list, running title, date printed, and 1 of N page numbers.  Added glossary. | 2024 October 20       |
+| Version 0.5.8    | Added header with short author list, running title, date printed, and 1 of N page numbers.  Added glossary. Moved to zip file. | 2024 October 25       |
 
 ## Sources of Funding
 
